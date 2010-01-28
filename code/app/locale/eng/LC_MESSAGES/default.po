@@ -1,0 +1,1425 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LanguageDuo v1\n"
+"POT-Creation-Date: 2010-01-26 20:22+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vadim Frolov <fralik@gmail.com>\n"
+"Language-Team: Vadim Frolov <fralik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+
+#: \app_controller.php:28
+#: \controllers\app_controller.php:28
+msgid "login_error"
+msgstr "Login failed. Invalid email or password."
+
+#: \app_controller.php:29
+#: \controllers\app_controller.php:29
+msgid "auth_error"
+msgstr "You are not authorized to access that location."
+
+#: \app_controller.php:30
+#: \controllers\app_controller.php:30
+#: \controllers\components\projectname_helper.php:6
+msgid "project_name"
+msgstr "GovorimVmeste"
+
+#: \controllers\cities_controller.php:14;36
+msgid "Invalid city"
+msgstr ""
+
+#: \controllers\cities_controller.php:24;41
+msgid "The City has been saved"
+msgstr ""
+
+#: \controllers\cities_controller.php:27;44
+msgid "The City could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\cities_controller.php:56
+msgid "Invalid id for City"
+msgstr ""
+
+#: \controllers\cities_controller.php:60
+msgid "City deleted"
+msgstr ""
+
+#: \controllers\countries_controller.php:199;227
+#: \controllers\languages_controller.php:43
+msgid "Everything has been done."
+msgstr ""
+
+#: \controllers\countries_controller.php:235;256
+msgid "Invalid country"
+msgstr ""
+
+#: \controllers\countries_controller.php:246;261
+msgid "The Country has been saved"
+msgstr ""
+
+#: \controllers\countries_controller.php:249;264
+msgid "The Country could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\countries_controller.php:274
+msgid "Invalid id for Country"
+msgstr ""
+
+#: \controllers\countries_controller.php:278
+msgid "Country deleted"
+msgstr ""
+
+#: \controllers\groups_controller.php:29
+msgid "Invalid Group."
+msgstr ""
+
+#: \controllers\groups_controller.php:39;54
+msgid "The Group has been saved"
+msgstr ""
+
+#: \controllers\groups_controller.php:42;57
+msgid "The Group could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\groups_controller.php:49
+msgid "Invalid Group"
+msgstr ""
+
+#: \controllers\groups_controller.php:67
+msgid "Invalid id for Group"
+msgstr ""
+
+#: \controllers\groups_controller.php:71
+msgid "Group deleted"
+msgstr ""
+
+#: \controllers\info_controller.php:20
+#: \controllers\pages_controller.php:88
+#: \views\layouts\default.ctp:177
+msgid "About"
+msgstr ""
+
+#: \controllers\info_controller.php:26
+#: \controllers\pages_controller.php:94
+#: \views\layouts\default.ctp:163
+msgid "Regulations"
+msgstr ""
+
+#: \controllers\languages_controller.php:49
+msgid "Invalid Language."
+msgstr ""
+
+#: \controllers\languages_controller.php:60;77
+msgid "The Language has been saved"
+msgstr ""
+
+#: \controllers\languages_controller.php:63;80
+msgid "The Language could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\languages_controller.php:72
+msgid "Invalid Language"
+msgstr ""
+
+#: \controllers\languages_controller.php:92
+msgid "Invalid id for Language"
+msgstr ""
+
+#: \controllers\languages_controller.php:96
+msgid "Language deleted"
+msgstr ""
+
+#: \controllers\languages_users_controller.php:14
+msgid "Invalid LanguagesUser."
+msgstr ""
+
+#: \controllers\languages_users_controller.php:24;42
+msgid "The LanguagesUser has been saved"
+msgstr ""
+
+#: \controllers\languages_users_controller.php:27;45
+msgid "The LanguagesUser could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\languages_users_controller.php:37
+msgid "Invalid LanguagesUser"
+msgstr ""
+
+#: \controllers\languages_users_controller.php:58
+msgid "Invalid id for LanguagesUser"
+msgstr ""
+
+#: \controllers\languages_users_controller.php:62
+msgid "LanguagesUser deleted"
+msgstr ""
+
+#: \controllers\users_controller.php:51
+#: \controllers\components\users_controller.php:51
+#: \views\layouts\default.ctp:127
+#: \views\users\login.ctp:12
+msgid "Sign in"
+msgstr ""
+
+#: \controllers\users_controller.php:72
+#: \controllers\components\users_controller.php:72
+msgid "account_not_activated"
+msgstr "Sorry, but this account is not active. To activate it you should click the link in email you recieved after registration. If you don't see the email, try checking your junk or spam folder."
+
+#: \controllers\users_controller.php:140
+#: \controllers\components\users_controller.php:140
+msgid "Person details"
+msgstr ""
+
+#: \controllers\users_controller.php:143;148;419;781
+#: \controllers\components\users_controller.php:143;148;419
+msgid "Invalid user"
+msgstr ""
+
+#: \controllers\users_controller.php:172
+#: \controllers\components\users_controller.php:172
+#: \views\layouts\default.ctp:84
+#: \views\users\home.ctp:56
+#: \views\users\search.ctp:136
+#: \views\users\test.ctp:10
+msgid "Search for the partner"
+msgstr ""
+
+#: \controllers\users_controller.php:290
+#: \controllers\components\users_controller.php:290
+#: \views\layouts\default.ctp:105
+msgid "Create an account"
+msgstr ""
+
+#: \controllers\users_controller.php:317;795
+#: \controllers\components\users_controller.php:317
+msgid "Captcha is incorrect"
+msgstr ""
+
+#: \controllers\users_controller.php:377
+#: \controllers\components\users_controller.php:377
+msgid "thanks_for_registration"
+msgstr "Thank you for the registration! We have sent you an email so that we can verify you email address — click the link in it and you should be good to go. If you dosn't see the email, try checking your junk or spam folder."
+
+#: \controllers\users_controller.php:383;521
+#: \controllers\components\users_controller.php:383
+msgid "The User could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\users_controller.php:414
+#: \controllers\components\users_controller.php:414
+msgid "Edit personal data"
+msgstr ""
+
+#: \controllers\users_controller.php:469
+#: \controllers\components\users_controller.php:469
+msgid "You have entered the wrong password"
+msgstr ""
+
+#: \controllers\users_controller.php:478
+#: \controllers\components\users_controller.php:478
+msgid "The User has been saved"
+msgstr ""
+
+#: \controllers\users_controller.php:529;543;568
+msgid "You are not allowed to view this page."
+msgstr ""
+
+#: \controllers\users_controller.php:554
+msgid "Invalid id for user"
+msgstr ""
+
+#: \controllers\users_controller.php:562
+msgid "User deleted"
+msgstr ""
+
+#: \controllers\users_controller.php:591;640
+msgid "Password reset"
+msgstr ""
+
+#: \controllers\users_controller.php:599
+msgid "Invalid email"
+msgstr ""
+
+#: \controllers\users_controller.php:624
+msgid "reset_send_success"
+msgstr "New password has been sent to you"
+
+#: \controllers\users_controller.php:636
+msgid "new_password_email_text"
+msgstr ""
+"Dear %s,\n"
+"\n"
+"someone, probably you, have requested a new password for GovorimVmeste.com website. Your new password is: %s .\n"
+"Use it to enter the site by http://govorimvmeste.com/users/login .\n"
+"\n"
+"Sincerely yours,\n"
+"GovorimVmeste team."
+
+#: \controllers\users_controller.php:642;647
+msgid "new_pwd_send_fail"
+msgstr "Failed to send the password. Try it again. If the problem persist, then contact LanguageDuo team."
+
+#: \controllers\users_controller.php:667
+msgid "activation_succcess"
+msgstr "You have successfully activated your account. Now you can log in."
+
+#: \controllers\users_controller.php:701
+msgid "new_user_subject_text"
+msgstr "Email confirmation at %s"
+
+#: \controllers\users_controller.php:704;709;745;750
+#, fuzzy
+msgid "new_user_send_fail"
+msgstr "Failed to send the password. Try it again. If the problem persist, then contact LanguageDuo team."
+
+#: \controllers\users_controller.php:742
+msgid "greetings_subject_text"
+msgstr "Welcome to %s!"
+
+#: \controllers\users_controller.php:778
+#: \views\users\email.ctp:28
+msgid "Unhide email"
+msgstr ""
+
+#: \controllers\components\projectname_helper.php:17
+msgid "project_complete_address"
+msgstr "http://GovorimVmeste.com"
+
+#: \controllers\components\projectname_helper.php:19
+msgid "project_address"
+msgstr "GovorimVmeste"
+
+#: \models\user.php:170;171
+msgid "user_name_required_msg"
+msgstr "Enter the name"
+
+#: \models\user.php:172
+msgid "user_surname_required_msg"
+msgstr "Enter the surname"
+
+#: \models\user.php:173
+msgid "user_surname_length_msg"
+msgstr "That surname a bit too long, keep it under 60 characters"
+
+#: \models\user.php:174
+msgid "user_email_unique"
+msgstr "The email is not unique"
+
+#: \models\user.php:175
+msgid "user_email_invalid"
+msgstr "The given email is invalid"
+
+#: \models\user.php:176
+msgid "user_email_enter"
+msgstr "Enter email"
+
+#: \models\user.php:177
+msgid "user_password_4"
+msgstr "Must be 4 characters or longer"
+
+#: \models\user.php:178
+msgid "user_city_enter"
+msgstr "Enter the city"
+
+#: \models\user.php:179
+msgid "user_country_enter"
+msgstr "Enter the country"
+
+#: \models\user.php:180
+msgid "user_offer_enter"
+msgstr "Please select at least one language that you speak"
+
+#: \models\user.php:181
+msgid "user_want_enter"
+msgstr "Please select at least one language that you are looking for"
+
+#: \models\user.php:182
+msgid "user_gender_rule"
+msgstr "The gender could be either “---”(not specified), “male” or “female”"
+
+#: \models\user.php:183
+msgid "user_age_rule"
+msgstr "The value for age you've entered is not valid."
+
+#: \models\user.php:184
+msgid "user_level_incorrect"
+msgstr ""
+
+#: \views\cities\add.ctp:4
+msgid "Add City"
+msgstr ""
+
+#: \views\cities\add.ctp:14
+#: \views\cities\edit.ctp:16
+#: \views\cities\view.ctp:25
+#: \views\countries\add.ctp:14
+#: \views\countries\edit.ctp:16
+#: \views\countries\index.ctp:47
+#: \views\countries\view.ctp:22
+#: \views\users\add.ctp:76
+#: \views\users\index.ctp:83
+#: \views\users\search.ctp:265
+msgid "List Cities"
+msgstr ""
+
+#: \views\cities\add.ctp:15
+#: \views\cities\edit.ctp:17
+#: \views\cities\index.ctp:51
+#: \views\cities\view.ctp:27
+#: \views\countries\add.ctp:13
+#: \views\countries\edit.ctp:15
+#: \views\countries\view.ctp:20
+#: \views\users\add.ctp:78
+#: \views\users\index.ctp:85
+#: \views\users\search.ctp:267
+msgid "List Countries"
+msgstr ""
+
+#: \views\cities\add.ctp:16
+#: \views\cities\edit.ctp:18
+#: \views\cities\index.ctp:52
+#: \views\cities\view.ctp:28
+#: \views\countries\index.ctp:46
+#: \views\countries\view.ctp:21
+#: \views\users\add.ctp:79
+#: \views\users\index.ctp:86
+#: \views\users\search.ctp:268
+msgid "New Country"
+msgstr ""
+
+#: \views\cities\add.ctp:17
+#: \views\cities\edit.ctp:19
+#: \views\cities\index.ctp:53
+#: \views\cities\view.ctp:29
+#: \views\languages\add.ctp:15
+#: \views\languages\edit.ctp:17
+#: \views\languages\index.ctp:47
+#: \views\languages\view.ctp:22
+#: \views\users\add.ctp:75
+#: \views\users\edit.ctp:105
+#: \views\users\view.ctp:156
+msgid "List Users"
+msgstr ""
+
+#: \views\cities\add.ctp:18
+#: \views\cities\edit.ctp:20
+#: \views\cities\index.ctp:54
+#: \views\cities\view.ctp:30;77
+#: \views\languages\add.ctp:16
+#: \views\languages\edit.ctp:18
+#: \views\languages\index.ctp:48
+#: \views\languages\view.ctp:23;76
+#: \views\users\index.ctp:82
+#: \views\users\search.ctp:264
+#: \views\users\view.ctp:157
+msgid "New User"
+msgstr ""
+
+#: \views\cities\edit.ctp:4
+#: \views\cities\view.ctp:23
+msgid "Edit City"
+msgstr ""
+
+#: \views\cities\edit.ctp:15
+#: \views\cities\index.ctp:37
+#: \views\cities\view.ctp:68
+#: \views\countries\edit.ctp:14
+#: \views\countries\index.ctp:33
+#: \views\countries\view.ctp:51
+#: \views\groups\edit.ctp:14
+#: \views\groups\index.ctp:41
+#: \views\languages\edit.ctp:15
+#: \views\languages\index.ctp:33
+#: \views\languages\view.ctp:67
+#: \views\languages_users\edit.ctp:16
+#: \views\languages_users\index.ctp:41
+#: \views\users\edit.ctp:104;111
+#: \views\users\index.ctp:69
+#: \views\users\search.ctp:236
+msgid "Delete"
+msgstr ""
+
+#: \views\cities\edit.ctp:15
+#: \views\cities\index.ctp:37
+#: \views\cities\view.ctp:24;68
+#: \views\countries\edit.ctp:14
+#: \views\countries\index.ctp:33
+#: \views\countries\view.ctp:19;51
+#: \views\groups\edit.ctp:14
+#: \views\groups\index.ctp:41
+#: \views\groups\view.ctp:29
+#: \views\languages\edit.ctp:15
+#: \views\languages\index.ctp:33
+#: \views\languages\view.ctp:19;67
+#: \views\languages_users\edit.ctp:16
+#: \views\languages_users\index.ctp:41
+#: \views\languages_users\view.ctp:29
+#: \views\users\index.ctp:69
+#: \views\users\search.ctp:236
+#: \views\users\view.ctp:155
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: \views\cities\index.ctp:2
+msgid "Cities"
+msgstr ""
+
+#: \views\cities\index.ctp:6
+#: \views\countries\index.ctp:6
+#: \views\groups\index.ctp:6
+#: \views\languages\index.ctp:6
+#: \views\languages_users\index.ctp:6
+#: \views\users\index.ctp:6
+#: \views\users\search.ctp:102
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: \views\cities\index.ctp:14
+#: \views\cities\view.ctp:46
+#: \views\countries\index.ctp:13
+#: \views\countries\view.ctp:34
+#: \views\groups\index.ctp:15
+#: \views\languages\index.ctp:13
+#: \views\languages\view.ctp:42
+#: \views\languages_users\index.ctp:15
+#: \views\users\index.ctp:22
+#: \views\users\search.ctp:164;176
+msgid "Actions"
+msgstr ""
+
+#: \views\cities\index.ctp:35
+#: \views\cities\view.ctp:66
+#: \views\countries\index.ctp:31
+#: \views\countries\view.ctp:49
+#: \views\groups\index.ctp:39
+#: \views\languages\index.ctp:31
+#: \views\languages\view.ctp:65
+#: \views\languages_users\index.ctp:39
+#: \views\users\index.ctp:67
+#: \views\users\search.ctp:231
+msgid "View"
+msgstr "View profile"
+
+#: \views\cities\index.ctp:36
+#: \views\cities\view.ctp:67
+#: \views\countries\index.ctp:32
+#: \views\countries\view.ctp:50
+#: \views\groups\index.ctp:40
+#: \views\languages\index.ctp:32
+#: \views\languages\view.ctp:66
+#: \views\languages_users\index.ctp:40
+#: \views\users\index.ctp:68
+#: \views\users\search.ctp:235
+msgid "Edit"
+msgstr ""
+
+#: \views\cities\index.ctp:44
+#: \views\countries\index.ctp:40
+#: \views\groups\index.ctp:48
+#: \views\languages\index.ctp:40
+#: \views\languages_users\index.ctp:48
+#: \views\users\index.ctp:76
+#: \views\users\search.ctp:254
+msgid "previous"
+msgstr ""
+
+#: \views\cities\index.ctp:46
+#: \views\countries\index.ctp:42
+#: \views\groups\index.ctp:50
+#: \views\languages\index.ctp:42
+#: \views\languages_users\index.ctp:50
+#: \views\users\index.ctp:78
+#: \views\users\search.ctp:256
+msgid "next"
+msgstr ""
+
+#: \views\cities\index.ctp:50
+#: \views\cities\view.ctp:26
+#: \views\countries\add.ctp:15
+#: \views\countries\edit.ctp:17
+#: \views\countries\index.ctp:48
+#: \views\countries\view.ctp:23;60
+#: \views\users\add.ctp:77
+#: \views\users\index.ctp:84
+#: \views\users\search.ctp:266
+msgid "New City"
+msgstr ""
+
+#: \views\cities\view.ctp:2
+#: \views\users\add.ctp:54
+#: \views\users\home.ctp:51
+#: \views\users\search.ctp:131
+#: \views\users\view.ctp:58
+msgid "City"
+msgstr ""
+
+#: \views\cities\view.ctp:4;38
+#: \views\countries\view.ctp:4;31
+#: \views\groups\view.ctp:4
+#: \views\languages\view.ctp:4;31
+#: \views\languages_users\view.ctp:4
+#: \views\users\view.ctp:29
+msgid "Id"
+msgstr ""
+
+#: \views\cities\view.ctp:9
+#: \views\countries\view.ctp:2
+#: \views\users\add.ctp:53
+#: \views\users\home.ctp:43
+#: \views\users\search.ctp:123
+#: \views\users\view.ctp:53
+msgid "Country"
+msgstr ""
+
+#: \views\cities\view.ctp:14;39
+#: \views\countries\view.ctp:9;33
+#: \views\groups\view.ctp:9
+#: \views\languages\view.ctp:9;32
+#: \views\users\add.ctp:47
+#: \views\users\search.ctp:157;169
+#: \views\users\view.ctp:35
+msgid "Name"
+msgstr ""
+
+#: \views\cities\view.ctp:24
+msgid "Delete City"
+msgstr ""
+
+#: \views\cities\view.ctp:34
+#: \views\languages\view.ctp:27
+msgid "Related Users"
+msgstr ""
+
+#: \views\cities\view.ctp:40
+#: \views\languages\view.ctp:33
+#: \views\users\add.ctp:48
+#: \views\users\search.ctp:158;170
+#: \views\users\view.ctp:40
+msgid "Surname"
+msgstr ""
+
+#: \views\cities\view.ctp:41
+#: \views\languages\view.ctp:34
+#: \views\users\add.ctp:51
+#: \views\users\search.ctp:159;171
+#: \views\users\view.ctp:45
+msgid "Email"
+msgstr ""
+
+#: \views\cities\view.ctp:42
+#: \views\languages\view.ctp:35
+#: \views\users\add.ctp:52
+msgid "Password"
+msgstr ""
+
+#: \views\cities\view.ctp:43
+#: \views\languages\view.ctp:36
+msgid "City Id"
+msgstr ""
+
+#: \views\cities\view.ctp:44
+#: \views\languages\view.ctp:37
+#: \views\users\add.ctp:61
+#: \views\users\view.ctp:76
+msgid "Message"
+msgstr ""
+
+#: \views\cities\view.ctp:45
+#: \views\languages\view.ctp:38
+#: \views\users\add.ctp:49
+#: \views\users\search.ctp:161;173
+#: \views\users\view.ctp:63
+msgid "Gender"
+msgstr ""
+
+#: \views\countries\add.ctp:4
+msgid "Add Country"
+msgstr ""
+
+#: \views\countries\edit.ctp:4
+#: \views\countries\view.ctp:18
+msgid "Edit Country"
+msgstr ""
+
+#: \views\countries\index.ctp:2
+msgid "Countries"
+msgstr ""
+
+#: \views\countries\view.ctp:19
+msgid "Delete Country"
+msgstr ""
+
+#: \views\countries\view.ctp:27
+msgid "Related Cities"
+msgstr ""
+
+#: \views\countries\view.ctp:32
+msgid "Country Id"
+msgstr ""
+
+#: \views\elements\errors.ctp:5
+msgid "validation_errors"
+msgstr "There are %d error(s) in your submission. Please correct them."
+
+#: \views\groups\add.ctp:4
+msgid "Add Group"
+msgstr ""
+
+#: \views\groups\add.ctp:13
+#: \views\groups\edit.ctp:15
+#: \views\groups\view.ctp:30
+msgid "List Groups"
+msgstr ""
+
+#: \views\groups\edit.ctp:4
+#: \views\groups\view.ctp:28
+msgid "Edit Group"
+msgstr ""
+
+#: \views\groups\index.ctp:2
+msgid "Groups"
+msgstr ""
+
+#: \views\groups\index.ctp:54
+#: \views\groups\view.ctp:31
+msgid "New Group"
+msgstr ""
+
+#: \views\groups\view.ctp:2
+#: \views\users\add.ctp:63
+msgid "Group"
+msgstr ""
+
+#: \views\groups\view.ctp:14
+#: \views\languages\view.ctp:40
+#: \views\users\view.ctp:130
+msgid "Created"
+msgstr ""
+
+#: \views\groups\view.ctp:19
+#: \views\languages\view.ctp:41
+#: \views\users\view.ctp:135
+msgid "Modified"
+msgstr ""
+
+#: \views\groups\view.ctp:29
+msgid "Delete Group"
+msgstr ""
+
+#: \views\helpers\mailto.php:20
+msgid "new_window"
+msgstr " (Opens in a new window)"
+
+#: \views\helpers\multicheckbox.php:34
+#: \views\languages\view.ctp:2
+msgid "Language"
+msgstr ""
+
+#: \views\helpers\multicheckbox.php:35
+msgid "My level"
+msgstr ""
+
+#: \views\helpers\multicheckbox.php:49
+msgid "native"
+msgstr ""
+
+#: \views\helpers\multicheckbox.php:49
+msgid "basic"
+msgstr ""
+
+#: \views\helpers\multicheckbox.php:49
+msgid "fluent"
+msgstr ""
+
+#: \views\info\regulations.ctp:16
+#: \views\pages\regulations.ctp:11
+msgid "Regulations for using LanguageDuo.com"
+msgstr ""
+
+#: \views\languages\add.ctp:4
+msgid "Add Language"
+msgstr ""
+
+#: \views\languages\add.ctp:14
+#: \views\languages\edit.ctp:16
+#: \views\languages\view.ctp:20
+#: \views\users\add.ctp:80
+#: \views\users\index.ctp:87
+#: \views\users\search.ctp:269
+msgid "List Languages"
+msgstr ""
+
+#: \views\languages\edit.ctp:4
+#: \views\languages\view.ctp:18
+msgid "Edit Language"
+msgstr ""
+
+#: \views\languages\index.ctp:2
+msgid "Languages"
+msgstr ""
+
+#: \views\languages\index.ctp:46
+#: \views\languages\view.ctp:21
+msgid "New Language"
+msgstr ""
+
+#: \views\languages\view.ctp:19
+msgid "Delete Language"
+msgstr ""
+
+#: \views\languages\view.ctp:39
+#: \views\users\view.ctp:125
+msgid "Group Id"
+msgstr ""
+
+#: \views\languages_users\add.ctp:4
+msgid "Add LanguagesUser"
+msgstr ""
+
+#: \views\languages_users\add.ctp:15
+#: \views\languages_users\edit.ctp:17
+#: \views\languages_users\view.ctp:30
+msgid "List LanguagesUsers"
+msgstr ""
+
+#: \views\languages_users\edit.ctp:4
+#: \views\languages_users\view.ctp:28
+msgid "Edit LanguagesUser"
+msgstr ""
+
+#: \views\languages_users\index.ctp:2
+msgid "LanguagesUsers"
+msgstr ""
+
+#: \views\languages_users\index.ctp:54
+#: \views\languages_users\view.ctp:31
+msgid "New LanguagesUser"
+msgstr ""
+
+#: \views\languages_users\view.ctp:2
+msgid "LanguagesUser"
+msgstr ""
+
+#: \views\languages_users\view.ctp:9
+msgid "Language Id"
+msgstr ""
+
+#: \views\languages_users\view.ctp:14
+msgid "User Id"
+msgstr ""
+
+#: \views\languages_users\view.ctp:19
+msgid "Offer"
+msgstr ""
+
+#: \views\languages_users\view.ctp:29
+msgid "Delete LanguagesUser"
+msgstr ""
+
+#: \views\layouts\default.ctp:100
+msgid "Logged in as "
+msgstr ""
+
+#: \views\layouts\default.ctp:123
+msgid "Edit profile"
+msgstr ""
+
+#: \views\layouts\default.ctp:144
+msgid "Sign out"
+msgstr ""
+
+#: \views\layouts\default.ctp:148
+msgid "Forgot your password?"
+msgstr ""
+
+#: \views\layouts\default.ctp:230
+msgid "developed"
+msgstr "Developed by <a href=\"mailto:mail@vadimfrolov.com\">Vadim Frolov</a>, 2009"
+
+#: \views\users\add.ctp:45
+msgid "Register user"
+msgstr ""
+
+#: \views\users\add.ctp:50
+#: \views\users\view.ctp:68
+msgid "Age"
+msgstr ""
+
+#: \views\users\add.ctp:57
+#: \views\users\edit.ctp:87
+msgid "Speak"
+msgstr ""
+
+#: \views\users\add.ctp:58
+#: \views\users\edit.ctp:88
+msgid "Looking for"
+msgstr ""
+
+#: \views\users\add.ctp:66
+msgid "disclaimer_link_left"
+msgstr "By the fact of registration you state your agreement with the "
+
+#: \views\users\add.ctp:66
+msgid "disclaimer_link"
+msgstr "terms of usage"
+
+#: \views\users\add.ctp:68
+#: \views\users\edit.ctp:96
+#: \views\users\email.ctp:35
+msgid "Submit"
+msgstr ""
+
+#: \views\users\add.ctp:81
+#: \views\users\index.ctp:88
+#: \views\users\search.ctp:270
+msgid "New Offer"
+msgstr ""
+
+#: \views\users\edit.ctp:68
+msgid "Edit user"
+msgstr ""
+
+#: \views\users\edit.ctp:82
+msgid "Old password"
+msgstr ""
+
+#: \views\users\edit.ctp:83
+msgid "New password"
+msgstr ""
+
+#: \views\users\edit.ctp:104;111
+msgid "Are you sure you want to delete user %s %s?"
+msgstr ""
+
+#: \views\users\email.ctp:29
+msgid "unhide_disclaimer"
+msgstr "Unregistered users can view other people emails only after submiting the correct captcha words. Please enter words from the picture and then press Submit button."
+
+#: \views\users\forgot.ctp:5
+msgid "Reset password"
+msgstr "Reset password"
+
+#: \views\users\forgot.ctp:10
+msgid "Get new password"
+msgstr ""
+
+#: \views\users\home.ctp:27
+msgid "main_page_intro"
+msgstr "Welcome to <site_name>!<br /></p><br /><p>Everybody speaks perfectly at least one language. But in the modern wolrd it is often not enough and the majority of people willing to learn a new language. <site_name> can help these people. It's goal to connect people nativly speaking different languages. The main idea behind <site_name> is that people could share their linguistic skills and gain new experience in another language and with new people.<br /><br /></p><p>You do not need to register to search for a partner. But if you want to leave information about yourself for other users and be able to see other users email addresses without annoying captcha, then you need to register. The registration is free."
+
+#: \views\users\home.ctp:31
+msgid "main_page_search_help"
+msgstr "Fields Country and City are not necessary to fill up"
+
+#: \views\users\home.ctp:37
+#: \views\users\search.ctp:117
+msgid "search_language"
+msgstr "Language to learn"
+
+#: \views\users\home.ctp:69
+#: \views\users\search.ctp:283
+msgid "selection_none"
+msgstr "— None selected —"
+
+#: \views\users\home.ctp:70
+#: \views\users\search.ctp:284
+msgid "selection_country_first"
+msgstr "— Select a country first —"
+
+#: \views\users\index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: \views\users\login.ctp:5
+msgid "Sign in to LanguageDuo with your account"
+msgstr "Sign in with your account"
+
+#: \views\users\login.ctp:10
+msgid "Remember_label"
+msgstr "Stay signed in"
+
+#: \views\users\search.ctp:112
+msgid "Search conditions"
+msgstr ""
+
+#: \views\users\search.ctp:146
+msgid "Found no people for this search conditions"
+msgstr ""
+
+#: \views\users\search.ctp:150
+msgid "Found people"
+msgstr ""
+
+#: \views\users\search.ctp:160;172
+msgid "City name"
+msgstr ""
+
+#: \views\users\search.ctp:162;174
+#: \views\users\view.ctp:88
+msgid "Speaks"
+msgstr ""
+
+#: \views\users\search.ctp:163;175
+#: \views\users\view.ctp:106
+msgid "search_page_looking_for"
+msgstr "Looks for"
+
+#: \views\users\search.ctp:197
+#: \views\users\view.ctp:49
+msgid "View email"
+msgstr ""
+
+#: \views\users\view.ctp:23
+msgid "Personal information"
+msgstr "Users information"
+
+#: \views\users\view.ctp:140
+msgid "Last login"
+msgstr ""
+
+#: \views\users\view.ctp:154;169
+msgid "Edit User"
+msgstr ""
+
+#: \views\users\view.ctp:155
+msgid "Delete User"
+msgstr ""
+
+#: \webroot\c_c.php:2
+msgid "Russia"
+msgstr ""
+
+#: \webroot\c_c.php:3
+msgid "Saint-Petersburg"
+msgstr ""
+
+#: \webroot\c_c.php:4
+msgid "Moscow"
+msgstr ""
+
+#: \webroot\c_c.php:5
+msgid "Veliky Novgorod"
+msgstr ""
+
+#: \webroot\c_c.php:6
+msgid "Volgograd"
+msgstr ""
+
+#: \webroot\c_c.php:7
+msgid "Yekaterinburg"
+msgstr ""
+
+#: \webroot\c_c.php:8
+msgid "Kazan"
+msgstr ""
+
+#: \webroot\c_c.php:9
+msgid "Kaliningrad"
+msgstr ""
+
+#: \webroot\c_c.php:10
+msgid "Krasnodar"
+msgstr ""
+
+#: \webroot\c_c.php:11
+msgid "Rostov-on-Don"
+msgstr ""
+
+#: \webroot\c_c.php:12
+msgid "Krasnoyarsk"
+msgstr ""
+
+#: \webroot\c_c.php:13
+msgid "Murmansk"
+msgstr ""
+
+#: \webroot\c_c.php:14
+msgid "Nizhny Novgorod"
+msgstr ""
+
+#: \webroot\c_c.php:15
+msgid "Novosibirsk"
+msgstr ""
+
+#: \webroot\c_c.php:16
+msgid "Omsk"
+msgstr ""
+
+#: \webroot\c_c.php:17
+msgid "Perm"
+msgstr ""
+
+#: \webroot\c_c.php:18
+msgid "Samara"
+msgstr ""
+
+#: \webroot\c_c.php:19
+msgid "Saratov"
+msgstr ""
+
+#: \webroot\c_c.php:20
+msgid "Ufa"
+msgstr ""
+
+#: \webroot\c_c.php:21
+msgid "Chelyabinsk"
+msgstr ""
+
+#: \webroot\c_c.php:22
+msgid "Ukraine"
+msgstr ""
+
+#: \webroot\c_c.php:23
+msgid "Kiev"
+msgstr ""
+
+#: \webroot\c_c.php:24
+msgid "Dnipropetrovsk"
+msgstr ""
+
+#: \webroot\c_c.php:25
+msgid "Odessa"
+msgstr ""
+
+#: \webroot\c_c.php:26
+msgid "Germany"
+msgstr ""
+
+#: \webroot\c_c.php:27
+msgid "Munich"
+msgstr ""
+
+#: \webroot\c_c.php:28
+msgid "Karlsruhe"
+msgstr ""
+
+#: \webroot\c_c.php:29
+msgid "Berlin"
+msgstr ""
+
+#: \webroot\c_c.php:30
+msgid "Bonn"
+msgstr ""
+
+#: \webroot\c_c.php:31
+msgid "Bremen"
+msgstr ""
+
+#: \webroot\c_c.php:32
+msgid "Frankfurt am Main"
+msgstr ""
+
+#: \webroot\c_c.php:33
+msgid "Düsseldorf"
+msgstr ""
+
+#: \webroot\c_c.php:34
+msgid "Hamburg"
+msgstr ""
+
+#: \webroot\c_c.php:35
+msgid "Belarus"
+msgstr ""
+
+#: \webroot\c_c.php:36
+msgid "Minsk"
+msgstr ""
+
+#: \webroot\c_c.php:37
+msgid "Brest"
+msgstr ""
+
+#: \webroot\c_c.php:38
+msgid "Vitebsk"
+msgstr ""
+
+#: \webroot\c_c.php:39
+msgid "Gomel"
+msgstr ""
+
+#: \webroot\c_c.php:40
+msgid "Horki"
+msgstr ""
+
+#: \webroot\c_c.php:41
+msgid "Grodno"
+msgstr ""
+
+#: \webroot\c_c.php:42
+msgid "Mogilev"
+msgstr ""
+
+#: \webroot\c_c.php:43
+msgid "Mazyr"
+msgstr ""
+
+#: \webroot\c_c.php:44
+msgid "Navapolatsk"
+msgstr ""
+
+#: \webroot\c_c.php:45
+msgid "Pinsk"
+msgstr ""
+
+#: \webroot\c_c.php:46
+msgid "Baranovichi"
+msgstr ""
+
+#: \webroot\c_c.php:47
+msgid "Israel"
+msgstr ""
+
+#: \webroot\c_c.php:48
+msgid "Ashdod"
+msgstr ""
+
+#: \webroot\c_c.php:49
+msgid "Ashkelon"
+msgstr ""
+
+#: \webroot\c_c.php:50
+msgid "Beersheba"
+msgstr ""
+
+#: \webroot\c_c.php:51
+msgid "Netanya"
+msgstr ""
+
+#: \webroot\c_c.php:52
+msgid "Petah Tikva"
+msgstr ""
+
+#: \webroot\c_c.php:53
+msgid "Rehovot"
+msgstr ""
+
+#: \webroot\c_c.php:54
+msgid "Rishon LeZion"
+msgstr ""
+
+#: \webroot\c_c.php:55
+msgid "Tel Aviv"
+msgstr ""
+
+#: \webroot\c_c.php:56
+msgid "Haifa"
+msgstr ""
+
+#: \webroot\c_c.php:57
+msgid "Jerusalem"
+msgstr ""
+
+#: \webroot\c_c.php:58
+msgid "Kazakhstan"
+msgstr ""
+
+#: \webroot\c_c.php:59
+msgid "Aktau"
+msgstr ""
+
+#: \webroot\c_c.php:60
+msgid "Baikonur"
+msgstr ""
+
+#: \webroot\c_c.php:61
+msgid "Karaganda"
+msgstr ""
+
+#: \webroot\c_c.php:62
+msgid "Kokshetau"
+msgstr ""
+
+#: \webroot\c_c.php:63
+msgid "Pavlodar"
+msgstr ""
+
+#: \webroot\c_c.php:64
+msgid "Petropavlovsk"
+msgstr ""
+
+#: \webroot\c_c.php:65
+msgid "Semey"
+msgstr ""
+
+#: \webroot\c_c.php:66
+msgid "Taraz"
+msgstr ""
+
+#: \webroot\c_c.php:67
+msgid "Uralsk"
+msgstr ""
+
+#: \webroot\c_c.php:68
+msgid "Oskemen"
+msgstr ""
+
+#: \webroot\c_c.php:69
+msgid "Shymkent"
+msgstr ""
+
+#: \webroot\c_c.php:70
+msgid "Astana"
+msgstr ""
+
+#: \webroot\c_c.php:71
+msgid "Almaty"
+msgstr ""
+
+#: \webroot\c_c.php:72
+msgid "USA"
+msgstr ""
+
+#: \webroot\c_c.php:73
+msgid "Boston"
+msgstr ""
+
+#: \webroot\c_c.php:74
+msgid "Chicago"
+msgstr ""
+
+#: \webroot\c_c.php:75
+msgid "Houston"
+msgstr ""
+
+#: \webroot\c_c.php:76
+msgid "Los Angeles"
+msgstr ""
+
+#: \webroot\c_c.php:77
+msgid "New York City"
+msgstr ""
+
+#: \webroot\c_c.php:78
+msgid "Philadelphia"
+msgstr ""
+
+#: \webroot\c_c.php:79
+msgid "San Francisco"
+msgstr ""
+
+#: \webroot\c_c.php:80
+msgid "Washington City"
+msgstr ""
+
+#: \webroot\c_c.php:81
+msgid "male"
+msgstr ""
+
+#: \webroot\c_c.php:82
+msgid "female"
+msgstr ""
+
+#: \webroot\langs.php:3
+msgid "Russian"
+msgstr ""
+
+#: \webroot\langs.php:4
+msgid "English"
+msgstr ""
+
+#: \webroot\langs.php:5
+msgid "German"
+msgstr ""
+
+#: \webroot\langs.php:6
+msgid "Finnish"
+msgstr ""
+
+#: \webroot\langs.php:7
+msgid "Swedish"
+msgstr ""
+
+#: \webroot\langs.php:8
+msgid "Hungarian"
+msgstr ""
+
+#: \webroot\langs.php:9
+msgid "Turkish"
+msgstr ""
+
+#: \webroot\langs.php:10
+msgid "Arabic"
+msgstr ""
+
+#: \webroot\langs.php:11
+msgid "Chinese"
+msgstr ""
+
+#: \webroot\langs.php:12
+msgid "French"
+msgstr ""
+
+#: \webroot\langs.php:13
+msgid "Japanese"
+msgstr ""
+
+#: \webroot\langs.php:14
+msgid "Hebrew"
+msgstr ""
+
+#: \webroot\langs.php:15
+msgid "Slovak"
+msgstr ""
+
+#: \webroot\langs.php:16
+msgid "Hindi"
+msgstr ""
+
+#: \webroot\langs.php:17
+msgid "Spanish"
+msgstr ""
+
+#: \webroot\langs.php:18
+msgid "Esperanto"
+msgstr ""
+
+#: \webroot\langs.php:19
+msgid "Italian"
+msgstr ""
+
+#: \webroot\langs.php:20
+msgid "Korean"
+msgstr ""
+
+#: \webroot\langs.php:21
+msgid "Polish"
+msgstr ""
+
+#: \webroot\langs.php:22
+msgid "Czech"
+msgstr ""
+
+#: \webroot\langs.php:23
+msgid "Portuguese"
+msgstr ""
+
+#: \webroot\langs.php:24
+msgid "Dutch"
+msgstr ""
+
+#: \webroot\langs.php:25
+msgid "Norwegian"
+msgstr ""
+
+#: \webroot\langs.php:26
+msgid "Estonian"
+msgstr ""
+
+#: \webroot\langs.php:27
+msgid "Mandarin Chinese"
+msgstr ""
+
+#: \webroot\langs.php:28
+msgid "Ukrainian"
+msgstr ""
+
+#: \webroot\test.php:98
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#~ msgid "user_name_length_msg"
+#~ msgstr "That name a bit too long, keep it under 60 characters"
+

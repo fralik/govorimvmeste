@@ -1,0 +1,771 @@
+2009-12-09 13:47:41 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE\cake\libs\validation.php, line 848]
+2009-12-09 14:51:24 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2456]
+2009-12-09 14:51:46 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2456]
+2009-12-09 14:53:07 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2456]
+2009-12-09 15:04:16 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'City.country_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 16:07:37 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Offer.language_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 16:07:44 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Offer.language_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 16:08:37 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Offer.language_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 16:20:48 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Offer.language_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 16:21:03 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Offer.language_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 16:26:21 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Language.language_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 16:34:37 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'LanguagesUsers.langauge_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 16:43:22 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1051: Unknown table 'Offer'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 16:43:22 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 17]
+2009-12-09 16:44:14 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM `users` AS `User` LEFT JOIN `cities` AS `City` ON (`User`.`city_id` = `Ci' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 16:44:14 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 17]
+2009-12-09 16:48:37 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'COLUMN' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 16:48:37 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 17]
+2009-12-09 16:59:13 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\controllers\users_controller.php, line 79]
+2009-12-09 17:01:19 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 17]
+2009-12-09 20:50:10 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'paginate' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 20:51:52 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'paginate' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 20:53:30 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'paginate' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 20:53:41 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'paginate' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 20:53:46 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'paginate' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-09 20:56:53 Warning: Warning (512): Controller::paginate() - can't find model Search in controller UsersController in [CORE\cake\libs\controller\controller.php, line 976]
+2009-12-09 20:58:25 Warning: Warning (512): Controller::paginate() - can't find model Name in controller UsersController in [CORE\cake\libs\controller\controller.php, line 976]
+2009-12-09 21:31:39 Warning: Warning (512): Controller::paginate() - can't find model some in controller UsersController in [CORE\cake\libs\controller\controller.php, line 976]
+2009-12-09 21:32:30 Warning: Warning (512): Controller::paginate() - can't find model some in controller UsersController in [CORE\cake\libs\controller\controller.php, line 976]
+2009-12-09 21:34:25 Warning: Warning (512): Controller::paginate() - can't find model some in controller UsersController in [CORE\cake\libs\controller\controller.php, line 976]
+2009-12-09 21:35:42 Warning: Warning (512): Controller::paginate() - can't find model some in controller UsersController in [CORE\cake\libs\controller\controller.php, line 976]
+2009-12-09 21:36:08 Warning: Warning (512): Controller::paginate() - can't find model Name in controller UsersController in [CORE\cake\libs\controller\controller.php, line 976]
+2009-12-09 22:28:59 Warning: Warning (512): Controller::paginate() - can't find model some in controller UsersController in [CORE\cake\libs\controller\controller.php, line 976]
+2009-12-09 23:03:33 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 22]
+2009-12-09 23:03:51 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 22]
+2009-12-09 23:09:12 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 22]
+2009-12-09 23:09:42 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 22]
+2009-12-09 23:12:02 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 22]
+2009-12-09 23:12:08 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 22]
+2009-12-09 23:18:49 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 22]
+2009-12-10 03:00:34 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 6]
+2009-12-10 03:00:41 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 6]
+2009-12-10 03:03:59 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 6]
+2009-12-10 03:36:59 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [CORE\cake\libs\view\helpers\html.php, line 295]
+2009-12-10 15:23:55 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\controllers\countries_controller.php, line 29]
+2009-12-10 15:26:36 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\controllers\countries_controller.php, line 31]
+2009-12-10 15:26:36 Warning: Warning (2): fclose(): supplied argument is not a valid stream resource in [APP\controllers\countries_controller.php, line 42]
+2009-12-10 15:27:17 Warning: Warning (2): fclose(): supplied argument is not a valid stream resource in [APP\controllers\countries_controller.php, line 42]
+2009-12-10 18:16:18 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Country.country_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-10 18:16:18 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 43]
+2009-12-10 18:16:43 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Country.country_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-10 18:16:43 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 43]
+2009-12-10 18:20:55 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Country.city_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-10 18:20:55 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 43]
+2009-12-10 18:21:11 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Country.city_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-10 18:21:11 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\search.ctp, line 43]
+2009-12-11 14:23:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 15
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2009-12-11 14:23:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\basics.php:308) in [CORE\cake\libs\controller\controller.php, line 644]
+2009-12-11 14:24:17 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 6
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2009-12-11 14:24:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\libs\debugger.php:519) in [CORE\cake\libs\controller\controller.php, line 644]
+2009-12-11 14:32:37 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 7
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2009-12-11 14:32:37 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\libs\debugger.php:519) in [CORE\cake\libs\controller\controller.php, line 644]
+2009-12-13 19:14:00 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE\cake\libs\controller\components\acl.php, line 325]
+2009-12-13 21:33:53 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getUsersId' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit L in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit T in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit Q in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit k in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit y in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit - in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit t in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit i in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit K in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit R in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit O in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit X in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit o in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit P in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit z in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit s in [APP\views\helpers\recaptcha.php, line 79]
+2009-12-14 00:16:52 Warning: Warning (512): Method RecaptchaHelper::_recaptcha_aes_pad does not exist in [CORE\cake\libs\view\helper.php, line 143]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit L in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit T in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit Q in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit k in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit y in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit - in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit t in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit i in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit K in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit R in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit O in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit X in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit o in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit P in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit z in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit s in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:21:37 Warning: Warning (512): Method RecaptchaHelper::_recaptcha_aes_pad does not exist in [CORE\cake\libs\view\helper.php, line 143]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit L in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit T in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit Q in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit k in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit y in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit - in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit t in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit i in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit K in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit R in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit O in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit X in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit o in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit P in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit z in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-14 00:22:11 Warning: Warning (2): pack() [<a href='http://php.net/function.pack'>function.pack</a>]: Type H: illegal hex digit s in [APP\views\helpers\recaptcha.php, line 88]
+2009-12-15 12:26:41 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\edit.ctp, line 24]
+2009-12-15 12:28:18 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\edit.ctp, line 24]
+2009-12-15 12:30:45 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\edit.ctp, line 24]
+2009-12-15 12:31:08 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\edit.ctp, line 24]
+2009-12-15 12:32:38 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\edit.ctp, line 24]
+2009-12-16 13:51:55 Warning: Warning (4096): Object of class UsersController could not be converted to string in [APP\app_controller.php, line 20]
+2009-12-16 17:02:16 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Languages/dump in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:03:32 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE\cake\libs\controller\components\acl.php, line 325]
+2009-12-16 17:11:50 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Countries/dump_php in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:51 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:51 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:51 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:51 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:51 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:52 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:52 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:52 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:52 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:52 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:53 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:53 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:53 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:53 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:53 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:11:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 19
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@me.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-15 12:41:42
+        )
+
+)
+
+Aco: controllers/Users/home in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-12-16 17:22:23 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2456]
+2009-12-16 17:25:48 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2456]
+2009-12-16 17:26:03 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2456]
+2009-12-16 17:26:43 Warning: Warning (2): Missing argument 2 for Validation::maxLength(), called in D:\projects\Runes\web\cake_1.2.5\cake\libs\object.php on line 118 and defined in [CORE\cake\libs\validation.php, line 597]
+2009-12-20 12:20:38 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\view.ctp, line 64]
+2009-12-20 12:20:38 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\view.ctp, line 79]
+2009-12-20 12:21:55 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\view.ctp, line 65]
+2009-12-20 12:21:55 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\view.ctp, line 80]
+2009-12-20 12:22:07 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\view.ctp, line 65]
+2009-12-20 12:22:07 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\view.ctp, line 80]
+2009-12-20 12:22:40 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\view.ctp, line 65]
+2009-12-20 12:22:40 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\view.ctp, line 80]
+2009-12-20 12:22:52 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\view.ctp, line 65]
+2009-12-20 12:22:52 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\users\view.ctp, line 80]
+2009-12-20 15:37:23 Warning: Warning (2): mysqli_connect() [<a href='http://php.net/function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'f053209190.adsl.alicedsl.de' (using password: YES) in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 73]
+2009-12-20 15:37:23 Warning: Warning (2): mysqli_get_server_info() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 79]
+2009-12-20 15:37:23 Warning: Warning (2): mysqli_query() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 109]
+2009-12-20 15:41:22 Warning: Warning (2): mysqli_connect() [<a href='http://php.net/function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host '123localhost' (11004) in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 73]
+2009-12-20 15:41:22 Warning: Warning (2): mysqli_get_server_info() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 79]
+2009-12-20 15:41:22 Warning: Warning (2): mysqli_query() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 109]
+2009-12-20 15:41:35 Warning: Warning (2): mysqli_connect() [<a href='http://php.net/function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host '123localhost' (11004) in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 73]
+2009-12-20 15:41:35 Warning: Warning (2): mysqli_get_server_info() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 79]
+2009-12-20 15:41:35 Warning: Warning (2): mysqli_query() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 109]
+2009-12-20 15:41:37 Warning: Warning (2): mysqli_connect() [<a href='http://php.net/function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host '123localhost' (11004) in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 73]
+2009-12-20 15:41:37 Warning: Warning (2): mysqli_get_server_info() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 79]
+2009-12-20 15:41:37 Warning: Warning (2): mysqli_query() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 109]
+2009-12-20 15:41:43 Warning: Warning (2): mysqli_connect() [<a href='http://php.net/function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host '123localhost' (11004) in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 73]
+2009-12-20 15:41:43 Warning: Warning (2): mysqli_get_server_info() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 79]
+2009-12-20 15:41:43 Warning: Warning (2): mysqli_query() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 109]
+2009-12-20 18:55:00 Warning: Warning (2): Missing argument 2 for User::__construct(), called in D:\projects\Runes\web\cake_1.2.5\cake\libs\class_registry.php on line 140 and defined in [APP\models\user.php, line 7]
+2009-12-20 18:55:00 Warning: Warning (2): Missing argument 3 for User::__construct(), called in D:\projects\Runes\web\cake_1.2.5\cake\libs\class_registry.php on line 140 and defined in [APP\models\user.php, line 7]
+2009-12-22 14:09:43 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 1
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2009-12-22 14:15:25 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 1
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2009-12-22 15:04:34 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 1
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2009-12-22 15:04:34 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\libs\debugger.php:519) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-04 16:32:23 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1364: Field 'name' doesn't have a default value</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-04 16:46:10 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1292: Incorrect datetime value: '2010-01-04T16:46:10+01:00' for column 'last_login' at row 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-04 16:46:34 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1292: Incorrect datetime value: '2010-01-04T16:46:34+01:00' for column 'last_login' at row 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-05 11:51:48 Warning: Warning (2): array_key_exists() [<a href='http://php.net/function.array-key-exists'>function.array-key-exists</a>]: The second argument should be either an array or an object in [APP\views\helpers\multicheckbox.php, line 24]
+2010-01-05 13:34:35 Warning: Warning (2): Missing argument 6 for MulticheckboxHelper::create(), called in D:\projects\Runes\web\cake_1.2.5\app\views\users\add.ctp on line 94 and defined in [APP\views\helpers\multicheckbox.php, line 10]
+2010-01-05 13:34:35 Warning: Warning (2): in_array() [<a href='http://php.net/function.in-array'>function.in-array</a>]: Wrong datatype for second argument in [APP\views\helpers\multicheckbox.php, line 78]
+2010-01-05 13:34:35 Warning: Warning (2): Missing argument 6 for MulticheckboxHelper::create(), called in D:\projects\Runes\web\cake_1.2.5\app\views\users\add.ctp on line 95 and defined in [APP\views\helpers\multicheckbox.php, line 10]
+2010-01-05 13:35:40 Warning: Warning (2): Missing argument 6 for MulticheckboxHelper::create(), called in D:\projects\Runes\web\cake_1.2.5\app\views\users\add.ctp on line 95 and defined in [APP\views\helpers\multicheckbox.php, line 10]
+2010-01-05 14:20:37 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-05 14:20:56 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-05 14:37:04 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'LanguagesUser.langauge_id' in 'field list'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-05 15:29:18 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'City.name' in 'order clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-05 15:29:18 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\controllers\countries_controller.php, line 48]
+2010-01-05 15:29:49 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Country.City.name' in 'order clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-05 15:29:49 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\controllers\countries_controller.php, line 48]
+2010-01-05 15:41:23 Warning: Warning (2): asort() expects parameter 1 to be array, null given in [APP\controllers\countries_controller.php, line 44]
+2010-01-10 13:55:26 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 1
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2010-01-10 13:55:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\libs\debugger.php:519) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-10 13:57:20 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 1
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2010-01-10 13:57:20 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\libs\debugger.php:512) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-10 13:57:24 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 1
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2010-01-10 13:57:24 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@gmail.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-17 11:19:54
+            [last_login] => 0000-00-00 00:00:00
+        )
+
+)
+
+Aco: controllers/Users/index in [CORE\cake\libs\controller\components\acl.php, line 239]
+2010-01-10 13:57:24 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\libs\debugger.php:512) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-10 13:57:35 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 1
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2010-01-10 13:57:35 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@gmail.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-17 11:19:54
+            [last_login] => 0000-00-00 00:00:00
+        )
+
+)
+
+Aco: controllers/Users/edit in [CORE\cake\libs\controller\components\acl.php, line 239]
+2010-01-10 13:57:35 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\libs\debugger.php:512) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-10 13:57:45 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 1
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2010-01-10 13:57:45 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [name] => Vadim
+            [surname] => Frolov
+            [email] => fralik@gmail.com
+            [city_id] => 1
+            [message] => 
+            [gender] => male
+            [group_id] => 3
+            [created] => 2009-12-13 15:48:02
+            [modified] => 2009-12-17 11:19:54
+            [last_login] => 0000-00-00 00:00:00
+        )
+
+)
+
+Aco: controllers/Users/delete in [CORE\cake\libs\controller\components\acl.php, line 239]
+2010-01-10 13:57:45 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\libs\debugger.php:512) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-10 14:10:14 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1364: Field 'last_login' doesn't have a default value</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-10 14:12:28 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1048: Column 'level' cannot be null</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-10 14:12:37 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\basics.php:307) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-10 15:33:58 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE\cake\libs\controller\components\acl.php, line 325]
+2010-01-10 15:57:24 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\basics.php:307) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-13 18:48:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\basics.php:307) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-13 18:51:42 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column '‘Userusername’' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-13 18:51:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\basics.php:307) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-13 18:52:29 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.username' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-13 18:52:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\basics.php:307) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-17 13:25:59 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #3 is not an array in [APP\views\users\search.ctp, line 40]
+2010-01-17 13:26:08 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #3 is not an array in [APP\views\users\search.ctp, line 40]
+2010-01-17 13:51:01 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in [APP\views\users\search.ctp, line 42]
+2010-01-17 14:42:50 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in [APP\views\users\search.ctp, line 38]
+2010-01-17 17:45:47 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\layouts\default.ctp, line 60]
+2010-01-18 00:12:03 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\layouts\default.ctp, line 60]
+2010-01-18 01:12:20 Warning: Warning (512): You can not write to a Session from the view in [CORE\cake\libs\view\helpers\session.php, line 176]
+2010-01-18 13:43:19 Warning: Warning (2): asort() expects parameter 1 to be array, null given in [APP\views\users\search.ctp, line 26]
+2010-01-19 21:22:04 Warning: Warning (2): mysqli_connect() [<a href='http://php.net/function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2003): Can't connect to MySQL server on 'localhost' (10048) in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 73]
+2010-01-19 21:22:04 Warning: Warning (2): mysqli_get_server_info() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 79]
+2010-01-19 21:22:05 Warning: Warning (2): mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 229]
+2010-01-19 21:22:05 Warning: Warning (2): mysqli_query() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 109]
+2010-01-19 21:22:05 Warning: Warning (2): mysqli_errno() expects parameter 1 to be mysqli, boolean given in [CORE\cake\libs\model\datasources\dbo\dbo_mysqli.php, line 241]
+2010-01-19 21:22:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\basics.php:307) in [CORE\cake\libs\controller\components\cookie.php, line 378]
+2010-01-19 21:22:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\projects\Runes\web\cake_1.2.5\cake\basics.php:307) in [CORE\cake\libs\controller\controller.php, line 644]
+2010-01-20 14:15:47 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1292: Incorrect datetime value: '2010-01-20T14:15:46+01:00' for column 'last_login' at row 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-20 14:17:43 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1292: Incorrect datetime value: '2010-01-20T14:17:43+01:00' for column 'last_login' at row 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-20 14:21:27 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1292: Incorrect datetime value: '2010-01-20T14:21:27+01:00' for column 'last_login' at row 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-20 14:23:13 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1292: Incorrect datetime value: '2010-01-20T14:23:13+01:00' for column 'last_login' at row 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 525]
+2010-01-20 14:35:00 Warning: Warning (2): in_array() [<a href='http://php.net/function.in-array'>function.in-array</a>]: Wrong datatype for second argument in [APP\app_controller.php, line 65]
+2010-01-20 14:35:01 Warning: Warning (2): in_array() [<a href='http://php.net/function.in-array'>function.in-array</a>]: Wrong datatype for second argument in [APP\app_controller.php, line 65]
