@@ -101,8 +101,8 @@ if ($isAdmin)
 { ?>
 <div class="actions">
 	<ul>
-		<li><?php echo $html->link(__('Delete', true), array('action' => 'delete', $form->value('User.id')), null, sprintf(__('Are you sure you want to delete user %s %s?', true), $form->value('User.name'), $form->value('User.surname'))); ?></li>
-		<li><?php echo $html->link(__('List Users', true), array('action' => 'index'));?></li>
+		<li><?php echo $html->link('Delete', array('action' => 'delete', $form->value('User.id')), null, sprintf('Are you sure you want to delete user %s %s?', $form->value('User.name'), $form->value('User.surname'))); ?></li>
+		<li><?php echo $html->link('List Users', array('action' => 'index'));?></li>
 	</ul>
 </div>
 <?php } else { ?>

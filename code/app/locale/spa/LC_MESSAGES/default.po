@@ -1,19 +1,16 @@
-# LANGUAGE translation of CakePHP Application
-# Copyright YEAR NAME <EMAIL@ADDRESS>
-# No version information was available in the source files.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: GovorimVmeste v.1\n"
 "POT-Creation-Date: 2010-01-28 13:04+0100\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vadim Frolov <fralik@gmail.com>\n"
+"Language-Team: Vadim Frolov <mail@govorimvmeste.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: \app_controller.php:28
 #: \controllers\app_controller.php:28
@@ -914,6 +911,7 @@ msgstr ""
 msgid "Ukrainian"
 msgstr ""
 
+# No necessary
 #: \webroot\test.php:98
 msgid "Debug setting does not allow access to this url."
 msgstr ""

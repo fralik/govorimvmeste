@@ -46,8 +46,8 @@ class MulticheckboxHelper extends Helper {
 		$i = 0;
 		$closed = 0;
 
-		$level_options = array(__('native', true), __('basic', true), __('fluent', true));
-		$level_values = array('native', 'basic', 'fluent');
+		$level_options = array(__('Native', true), __('Advanced', true), __('Intermediate', true), __('Beginner', true));
+		$level_values = array('native', 'advanced', 'intermediate, 'beginner');
 		$select_name = "data[{$model_name}][level][{$model_var}][]";
 		
 		foreach ($options as $id => $language)

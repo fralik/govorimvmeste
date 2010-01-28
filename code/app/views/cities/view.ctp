@@ -1,17 +1,17 @@
 <div class="cities view">
-<h2><?php  __('City');?></h2>
+<h2><?php  echo 'City';?></h2>
 	<dl><?php $i = 0; $class = ' class="altrow"';?>
-		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Id'); ?></dt>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php echo 'Id'; ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $city['City']['id']; ?>
 			&nbsp;
 		</dd>
-		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Country'); ?></dt>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php echo 'Country'; ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $html->link($city['Country']['name'], array('controller' => 'countries', 'action' => 'view', $city['Country']['id'])); ?>
 			&nbsp;
 		</dd>
-		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Name'); ?></dt>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php echo 'Name'; ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $city['City']['name']; ?>
 			&nbsp;
@@ -20,30 +20,30 @@
 </div>
 <div class="actions">
 	<ul>
-		<li><?php echo $html->link(__('Edit City', true), array('action' => 'edit', $city['City']['id'])); ?> </li>
-		<li><?php echo $html->link(__('Delete City', true), array('action' => 'delete', $city['City']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $city['City']['id'])); ?> </li>
-		<li><?php echo $html->link(__('List Cities', true), array('action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('New City', true), array('action' => 'add')); ?> </li>
-		<li><?php echo $html->link(__('List Countries', true), array('controller' => 'countries', 'action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('New Country', true), array('controller' => 'countries', 'action' => 'add')); ?> </li>
-		<li><?php echo $html->link(__('List Users', true), array('controller' => 'users', 'action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('New User', true), array('controller' => 'users', 'action' => 'add')); ?> </li>
+		<li><?php echo $html->link('Edit City', array('action' => 'edit', $city['City']['id'])); ?> </li>
+		<li><?php echo $html->link('Delete City', array('action' => 'delete', $city['City']['id']), null, sprintf('Are you sure you want to delete # %s?', $city['City']['id'])); ?> </li>
+		<li><?php echo $html->link('List Cities', array('action' => 'index')); ?> </li>
+		<li><?php echo $html->link('New City', array('action' => 'add')); ?> </li>
+		<li><?php echo $html->link('List Countries', array('controller' => 'countries', 'action' => 'index')); ?> </li>
+		<li><?php echo $html->link('New Country', array('controller' => 'countries', 'action' => 'add')); ?> </li>
+		<li><?php echo $html->link('List Users', array('controller' => 'users', 'action' => 'index')); ?> </li>
+		<li><?php echo $html->link('New User', array('controller' => 'users', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
 <div class="related">
-	<h3><?php __('Related Users');?></h3>
+	<h3><?php echo 'Related Users';?></h3>
 	<?php if (!empty($city['User'])):?>
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>
-		<th><?php __('Id'); ?></th>
-		<th><?php __('Name'); ?></th>
-		<th><?php __('Surname'); ?></th>
-		<th><?php __('Email'); ?></th>
-		<th><?php __('Password'); ?></th>
-		<th><?php __('City Id'); ?></th>
-		<th><?php __('Message'); ?></th>
-		<th><?php __('Gender'); ?></th>
-		<th class="actions"><?php __('Actions');?></th>
+		<th><?php echo 'Id'; ?></th>
+		<th><?php echo 'Name'; ?></th>
+		<th><?php echo 'Surname'; ?></th>
+		<th><?php echo 'Email'; ?></th>
+		<th><?php echo 'Password'; ?></th>
+		<th><?php echo 'City Id'; ?></th>
+		<th><?php echo 'Message'; ?></th>
+		<th><?php echo 'Gender'; ?></th>
+		<th class="actions"><?php echo 'Actions';?></th>
 	</tr>
 	<?php
 		$i = 0;
@@ -63,9 +63,9 @@
 			<td><?php echo $user['message'];?></td>
 			<td><?php echo $user['gender'];?></td>
 			<td class="actions">
-				<?php echo $html->link(__('View', true), array('controller' => 'users', 'action' => 'view', $user['id'])); ?>
-				<?php echo $html->link(__('Edit', true), array('controller' => 'users', 'action' => 'edit', $user['id'])); ?>
-				<?php echo $html->link(__('Delete', true), array('controller' => 'users', 'action' => 'delete', $user['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $user['id'])); ?>
+				<?php echo $html->link('View', array('controller' => 'users', 'action' => 'view', $user['id'])); ?>
+				<?php echo $html->link('Edit', array('controller' => 'users', 'action' => 'edit', $user['id'])); ?>
+				<?php echo $html->link('Delete', array('controller' => 'users', 'action' => 'delete', $user['id']), null, sprintf('Are you sure you want to delete # %s?', $user['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>
@@ -74,7 +74,7 @@
 
 	<div class="actions">
 		<ul>
-			<li><?php echo $html->link(__('New User', true), array('controller' => 'users', 'action' => 'add'));?> </li>
+			<li><?php echo $html->link('New User', array('controller' => 'users', 'action' => 'add'));?> </li>
 		</ul>
 	</div>
 </div>

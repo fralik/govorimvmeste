@@ -40,13 +40,13 @@ class LanguagesController extends AppController {
 		}
 		fwrite($fp, "?>");
 		fclose($fp);
-		$this->Session->setFlash(__('Everything has been done.', true));
+		$this->Session->setFlash('Everything has been done.');
 		//$this->redirect(array('action'=>'index'));
 	}
 
 	function view($id = null) {
 		if (!$id) {
-			$this->Session->setFlash(__('Invalid Language.', true));
+			$this->Session->setFlash('Invalid Language.');
 			$this->redirect(array('action'=>'index'));
 		}
 		$this->set('language', $this->Language->read(null, $id));
@@ -57,10 +57,10 @@ class LanguagesController extends AppController {
 		{
 			$this->Language->create();
 			if ($this->Language->save($this->data)) {
-				$this->Session->setFlash(__('The Language has been saved', true));
+				$this->Session->setFlash('The Language has been saved');
 				$this->redirect(array('action'=>'index'));
 			} else {
-				$this->Session->setFlash(__('The Language could not be saved. Please, try again.', true));
+				$this->Session->setFlash('The Language could not be saved. Please, try again.');
 			}
 		}
 		$users = $this->Language->User->find('list');
@@ -69,15 +69,15 @@ class LanguagesController extends AppController {
 
 	function edit($id = null) {
 		if (!$id && empty($this->data)) {
-			$this->Session->setFlash(__('Invalid Language', true));
+			$this->Session->setFlash('Invalid Language');
 			$this->redirect(array('action'=>'index'));
 		}
 		if (!empty($this->data)) {
 			if ($this->Language->save($this->data)) {
-				$this->Session->setFlash(__('The Language has been saved', true));
+				$this->Session->setFlash('The Language has been saved');
 				$this->redirect(array('action'=>'index'));
 			} else {
-				$this->Session->setFlash(__('The Language could not be saved. Please, try again.', true));
+				$this->Session->setFlash('The Language could not be saved. Please, try again.');
 			}
 		}
 		if (empty($this->data)) {
@@ -89,11 +89,11 @@ class LanguagesController extends AppController {
 
 	function delete($id = null) {
 		if (!$id) {
-			$this->Session->setFlash(__('Invalid id for Language', true));
+			$this->Session->setFlash('Invalid id for Language');
 			$this->redirect(array('action'=>'index'));
 		}
 		if ($this->Language->del($id)) {
-			$this->Session->setFlash(__('Language deleted', true));
+			$this->Session->setFlash('Language deleted');
 			$this->redirect(array('action'=>'index'));
 		}
 	}

@@ -1,5 +1,5 @@
 <div class="languagesUsers index">
-<h2><?php __('LanguagesUsers');?></h2>
+<h2><?php echo 'LanguagesUsers';?></h2>
 <p>
 <?php
 echo $paginator->counter(array(
@@ -12,7 +12,7 @@ echo $paginator->counter(array(
 	<th><?php echo $paginator->sort('language_id');?></th>
 	<th><?php echo $paginator->sort('user_id');?></th>
 	<th><?php echo $paginator->sort('offer');?></th>
-	<th class="actions"><?php __('Actions');?></th>
+	<th class="actions"><?php 'Actions');?></th>
 </tr>
 <?php
 $i = 0;
@@ -36,9 +36,9 @@ foreach ($languagesUsers as $languagesUser):
 			<?php echo $languagesUser['LanguagesUser']['offer']; ?>
 		</td>
 		<td class="actions">
-			<?php echo $html->link(__('View', true), array('action' => 'view', $languagesUser['LanguagesUser']['id'])); ?>
-			<?php echo $html->link(__('Edit', true), array('action' => 'edit', $languagesUser['LanguagesUser']['id'])); ?>
-			<?php echo $html->link(__('Delete', true), array('action' => 'delete', $languagesUser['LanguagesUser']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $languagesUser['LanguagesUser']['id'])); ?>
+			<?php echo $html->link('View', array('action' => 'view', $languagesUser['LanguagesUser']['id'])); ?>
+			<?php echo $html->link('Edit', array('action' => 'edit', $languagesUser['LanguagesUser']['id'])); ?>
+			<?php echo $html->link('Delete', array('action' => 'delete', $languagesUser['LanguagesUser']['id']), null, sprintf('Are you sure you want to delete # %s?', $languagesUser['LanguagesUser']['id'])); ?>
 		</td>
 	</tr>
 <?php endforeach; ?>
@@ -47,10 +47,10 @@ foreach ($languagesUsers as $languagesUser):
 <div class="paging">
 	<?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
  | 	<?php echo $paginator->numbers();?>
-	<?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
+	<?php echo $paginator->next('next'.' >>', array(), null, array('class' => 'disabled'));?>
 </div>
 <div class="actions">
 	<ul>
-		<li><?php echo $html->link(__('New LanguagesUser', true), array('action' => 'add')); ?></li>
+		<li><?php echo $html->link('New LanguagesUser', array('action' => 'add')); ?></li>
 	</ul>
 </div>

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LanguageDuo v1.0\n"
-"POT-Creation-Date: 2010-01-26 20:22+0100\n"
+"POT-Creation-Date: 2010-01-28 13:04+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vadim Frolov <fralik@gmail.com>\n"
 "Language-Team: Vadim Frolov <fralik@gmail.com>\n"
@@ -27,199 +27,67 @@ msgstr "У вас нет прав для просмотра данной стр�
 msgid "project_name"
 msgstr "Говорим вместе"
 
-#: \controllers\cities_controller.php:14;36
-msgid "Invalid city"
-msgstr "Несуществующий город"
-
-#: \controllers\cities_controller.php:24;41
-msgid "The City has been saved"
-msgstr ""
-
-#: \controllers\cities_controller.php:27;44
-msgid "The City could not be saved. Please, try again."
-msgstr ""
-
-#: \controllers\cities_controller.php:56
-msgid "Invalid id for City"
-msgstr ""
-
-#: \controllers\cities_controller.php:60
-msgid "City deleted"
-msgstr ""
-
-#: \controllers\countries_controller.php:199;227
-#: \controllers\languages_controller.php:43
-msgid "Everything has been done."
-msgstr "Все задания были выполнены"
-
-#: \controllers\countries_controller.php:235;256
-msgid "Invalid country"
-msgstr ""
-
-#: \controllers\countries_controller.php:246;261
-msgid "The Country has been saved"
-msgstr ""
-
-#: \controllers\countries_controller.php:249;264
-msgid "The Country could not be saved. Please, try again."
-msgstr ""
-
-#: \controllers\countries_controller.php:274
-msgid "Invalid id for Country"
-msgstr ""
-
-#: \controllers\countries_controller.php:278
-msgid "Country deleted"
-msgstr ""
-
-#: \controllers\groups_controller.php:29
-msgid "Invalid Group."
-msgstr ""
-
-#: \controllers\groups_controller.php:39;54
-msgid "The Group has been saved"
-msgstr ""
-
-#: \controllers\groups_controller.php:42;57
-msgid "The Group could not be saved. Please, try again."
-msgstr ""
-
-#: \controllers\groups_controller.php:49
-msgid "Invalid Group"
-msgstr ""
-
-#: \controllers\groups_controller.php:67
-msgid "Invalid id for Group"
-msgstr ""
-
-#: \controllers\groups_controller.php:71
-msgid "Group deleted"
-msgstr ""
-
 #: \controllers\info_controller.php:20
-#: \controllers\pages_controller.php:88
 #: \views\layouts\default.ctp:177
 msgid "About"
 msgstr "О нас"
 
 #: \controllers\info_controller.php:26
-#: \controllers\pages_controller.php:94
 #: \views\layouts\default.ctp:163
 msgid "Regulations"
 msgstr "Правила"
 
-#: \controllers\languages_controller.php:49
-msgid "Invalid Language."
-msgstr "Несуществующий язык"
-
-#: \controllers\languages_controller.php:60;77
-msgid "The Language has been saved"
-msgstr ""
-
-#: \controllers\languages_controller.php:63;80
-msgid "The Language could not be saved. Please, try again."
-msgstr ""
-
-#: \controllers\languages_controller.php:72
-msgid "Invalid Language"
-msgstr ""
-
-#: \controllers\languages_controller.php:92
-msgid "Invalid id for Language"
-msgstr ""
-
-#: \controllers\languages_controller.php:96
-msgid "Language deleted"
-msgstr ""
-
-#: \controllers\languages_users_controller.php:14
-msgid "Invalid LanguagesUser."
-msgstr ""
-
-#: \controllers\languages_users_controller.php:24;42
-msgid "The LanguagesUser has been saved"
-msgstr ""
-
-#: \controllers\languages_users_controller.php:27;45
-msgid "The LanguagesUser could not be saved. Please, try again."
-msgstr ""
-
-#: \controllers\languages_users_controller.php:37
-msgid "Invalid LanguagesUser"
-msgstr ""
-
-#: \controllers\languages_users_controller.php:58
-msgid "Invalid id for LanguagesUser"
-msgstr ""
-
-#: \controllers\languages_users_controller.php:62
-msgid "LanguagesUser deleted"
-msgstr ""
-
 #: \controllers\users_controller.php:51
-#: \controllers\components\users_controller.php:51
 #: \views\layouts\default.ctp:127
 #: \views\users\login.ctp:12
 msgid "Sign in"
 msgstr "Зайти"
 
 #: \controllers\users_controller.php:72
-#: \controllers\components\users_controller.php:72
 msgid "account_not_activated"
 msgstr "Извините, но профиль этого пользователя еще не активирован. Чтобы активировать его вам необходимо открыть ссылку, присланную вам после регистрации."
 
 #: \controllers\users_controller.php:140
-#: \controllers\components\users_controller.php:140
-msgid "Person details"
+msgid "Personal details"
 msgstr "Информация о пользователе"
 
 #: \controllers\users_controller.php:143;148;419;781
-#: \controllers\components\users_controller.php:143;148;419
 msgid "Invalid user"
 msgstr "Несуществующий пользователь"
 
 #: \controllers\users_controller.php:172
-#: \controllers\components\users_controller.php:172
 #: \views\layouts\default.ctp:84
 #: \views\users\home.ctp:56
 #: \views\users\search.ctp:136
-#: \views\users\test.ctp:10
 msgid "Search for the partner"
 msgstr "Найти партнера"
 
 #: \controllers\users_controller.php:290
-#: \controllers\components\users_controller.php:290
 #: \views\layouts\default.ctp:105
 msgid "Create an account"
 msgstr "Зарегистрироваться"
 
 #: \controllers\users_controller.php:317;795
-#: \controllers\components\users_controller.php:317
 msgid "Captcha is incorrect"
 msgstr "Введенны неправильные символы капчи"
 
 #: \controllers\users_controller.php:377
-#: \controllers\components\users_controller.php:377
 msgid "thanks_for_registration"
 msgstr "Спасибо за регистрацию! На указанный адрес электронной почты отправлено письмо с сылкой для подтверждения этого адреса."
 
 #: \controllers\users_controller.php:383;521
-#: \controllers\components\users_controller.php:383
 msgid "The User could not be saved. Please, try again."
 msgstr "Пользователь не может быть создан. Пожалуйста, попробуйте снова."
 
 #: \controllers\users_controller.php:414
-#: \controllers\components\users_controller.php:414
 msgid "Edit personal data"
 msgstr "Редактирование профиля"
 
 #: \controllers\users_controller.php:469
-#: \controllers\components\users_controller.php:469
 msgid "You have entered the wrong password"
 msgstr "Вы ввели неправильный пароль"
 
 #: \controllers\users_controller.php:478
-#: \controllers\components\users_controller.php:478
 msgid "The User has been saved"
 msgstr "Информация о пользователе успешно сохранена"
 
@@ -349,125 +217,6 @@ msgstr "Введенное вами значение возрасто некор
 msgid "user_level_incorrect"
 msgstr ""
 
-#: \views\cities\add.ctp:4
-msgid "Add City"
-msgstr ""
-
-#: \views\cities\add.ctp:14
-#: \views\cities\edit.ctp:16
-#: \views\cities\view.ctp:25
-#: \views\countries\add.ctp:14
-#: \views\countries\edit.ctp:16
-#: \views\countries\index.ctp:47
-#: \views\countries\view.ctp:22
-#: \views\users\add.ctp:76
-#: \views\users\index.ctp:83
-#: \views\users\search.ctp:265
-msgid "List Cities"
-msgstr ""
-
-#: \views\cities\add.ctp:15
-#: \views\cities\edit.ctp:17
-#: \views\cities\index.ctp:51
-#: \views\cities\view.ctp:27
-#: \views\countries\add.ctp:13
-#: \views\countries\edit.ctp:15
-#: \views\countries\view.ctp:20
-#: \views\users\add.ctp:78
-#: \views\users\index.ctp:85
-#: \views\users\search.ctp:267
-msgid "List Countries"
-msgstr ""
-
-#: \views\cities\add.ctp:16
-#: \views\cities\edit.ctp:18
-#: \views\cities\index.ctp:52
-#: \views\cities\view.ctp:28
-#: \views\countries\index.ctp:46
-#: \views\countries\view.ctp:21
-#: \views\users\add.ctp:79
-#: \views\users\index.ctp:86
-#: \views\users\search.ctp:268
-msgid "New Country"
-msgstr ""
-
-#: \views\cities\add.ctp:17
-#: \views\cities\edit.ctp:19
-#: \views\cities\index.ctp:53
-#: \views\cities\view.ctp:29
-#: \views\languages\add.ctp:15
-#: \views\languages\edit.ctp:17
-#: \views\languages\index.ctp:47
-#: \views\languages\view.ctp:22
-#: \views\users\add.ctp:75
-#: \views\users\edit.ctp:105
-#: \views\users\view.ctp:156
-msgid "List Users"
-msgstr ""
-
-#: \views\cities\add.ctp:18
-#: \views\cities\edit.ctp:20
-#: \views\cities\index.ctp:54
-#: \views\cities\view.ctp:30;77
-#: \views\languages\add.ctp:16
-#: \views\languages\edit.ctp:18
-#: \views\languages\index.ctp:48
-#: \views\languages\view.ctp:23;76
-#: \views\users\index.ctp:82
-#: \views\users\search.ctp:264
-#: \views\users\view.ctp:157
-msgid "New User"
-msgstr ""
-
-#: \views\cities\edit.ctp:4
-#: \views\cities\view.ctp:23
-msgid "Edit City"
-msgstr ""
-
-#: \views\cities\edit.ctp:15
-#: \views\cities\index.ctp:37
-#: \views\cities\view.ctp:68
-#: \views\countries\edit.ctp:14
-#: \views\countries\index.ctp:33
-#: \views\countries\view.ctp:51
-#: \views\groups\edit.ctp:14
-#: \views\groups\index.ctp:41
-#: \views\languages\edit.ctp:15
-#: \views\languages\index.ctp:33
-#: \views\languages\view.ctp:67
-#: \views\languages_users\edit.ctp:16
-#: \views\languages_users\index.ctp:41
-#: \views\users\edit.ctp:104;111
-#: \views\users\index.ctp:69
-#: \views\users\search.ctp:236
-msgid "Delete"
-msgstr "Удалить"
-
-#: \views\cities\edit.ctp:15
-#: \views\cities\index.ctp:37
-#: \views\cities\view.ctp:24;68
-#: \views\countries\edit.ctp:14
-#: \views\countries\index.ctp:33
-#: \views\countries\view.ctp:19;51
-#: \views\groups\edit.ctp:14
-#: \views\groups\index.ctp:41
-#: \views\groups\view.ctp:29
-#: \views\languages\edit.ctp:15
-#: \views\languages\index.ctp:33
-#: \views\languages\view.ctp:19;67
-#: \views\languages_users\edit.ctp:16
-#: \views\languages_users\index.ctp:41
-#: \views\languages_users\view.ctp:29
-#: \views\users\index.ctp:69
-#: \views\users\search.ctp:236
-#: \views\users\view.ctp:155
-msgid "Are you sure you want to delete # %s?"
-msgstr ""
-
-#: \views\cities\index.ctp:2
-msgid "Cities"
-msgstr ""
-
 #: \views\cities\index.ctp:6
 #: \views\countries\index.ctp:6
 #: \views\groups\index.ctp:6
@@ -478,47 +227,7 @@ msgstr ""
 msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
 msgstr "Страница %page% из %page%, показываются %current% записей из %count%, начиная с запсиси %start% и заканчивая %end%"
 
-#: \views\cities\index.ctp:14
-#: \views\cities\view.ctp:46
-#: \views\countries\index.ctp:13
-#: \views\countries\view.ctp:34
-#: \views\groups\index.ctp:15
-#: \views\languages\index.ctp:13
-#: \views\languages\view.ctp:42
-#: \views\languages_users\index.ctp:15
-#: \views\users\index.ctp:22
-#: \views\users\search.ctp:164;176
-msgid "Actions"
-msgstr "Действия"
-
-#: \views\cities\index.ctp:35
-#: \views\cities\view.ctp:66
-#: \views\countries\index.ctp:31
-#: \views\countries\view.ctp:49
-#: \views\groups\index.ctp:39
-#: \views\languages\index.ctp:31
-#: \views\languages\view.ctp:65
-#: \views\languages_users\index.ctp:39
-#: \views\users\index.ctp:67
-#: \views\users\search.ctp:231
-msgid "View"
-msgstr "Посмотреть профиль"
-
-#: \views\cities\index.ctp:36
-#: \views\cities\view.ctp:67
-#: \views\countries\index.ctp:32
-#: \views\countries\view.ctp:50
-#: \views\groups\index.ctp:40
-#: \views\languages\index.ctp:32
-#: \views\languages\view.ctp:66
-#: \views\languages_users\index.ctp:40
-#: \views\users\index.ctp:68
-#: \views\users\search.ctp:235
-msgid "Edit"
-msgstr "Редактировать"
-
 #: \views\cities\index.ctp:44
-#: \views\countries\index.ctp:40
 #: \views\groups\index.ctp:48
 #: \views\languages\index.ctp:40
 #: \views\languages_users\index.ctp:48
@@ -528,194 +237,22 @@ msgid "previous"
 msgstr "предыдущая"
 
 #: \views\cities\index.ctp:46
-#: \views\countries\index.ctp:42
 #: \views\groups\index.ctp:50
 #: \views\languages\index.ctp:42
-#: \views\languages_users\index.ctp:50
 #: \views\users\index.ctp:78
 #: \views\users\search.ctp:256
 msgid "next"
 msgstr "следующая"
 
-#: \views\cities\index.ctp:50
-#: \views\cities\view.ctp:26
-#: \views\countries\add.ctp:15
-#: \views\countries\edit.ctp:17
-#: \views\countries\index.ctp:48
-#: \views\countries\view.ctp:23;60
-#: \views\users\add.ctp:77
-#: \views\users\index.ctp:84
-#: \views\users\search.ctp:266
-msgid "New City"
-msgstr ""
-
-#: \views\cities\view.ctp:2
-#: \views\users\add.ctp:54
-#: \views\users\home.ctp:51
-#: \views\users\search.ctp:131
-#: \views\users\view.ctp:58
-msgid "City"
-msgstr "Город"
-
-#: \views\cities\view.ctp:4;38
-#: \views\countries\view.ctp:4;31
-#: \views\groups\view.ctp:4
-#: \views\languages\view.ctp:4;31
-#: \views\languages_users\view.ctp:4
-#: \views\users\view.ctp:29
-msgid "Id"
-msgstr ""
-
-#: \views\cities\view.ctp:9
-#: \views\countries\view.ctp:2
-#: \views\users\add.ctp:53
-#: \views\users\home.ctp:43
-#: \views\users\search.ctp:123
-#: \views\users\view.ctp:53
-msgid "Country"
-msgstr "Страна"
-
-#: \views\cities\view.ctp:14;39
-#: \views\countries\view.ctp:9;33
-#: \views\groups\view.ctp:9
-#: \views\languages\view.ctp:9;32
-#: \views\users\add.ctp:47
-#: \views\users\search.ctp:157;169
-#: \views\users\view.ctp:35
-msgid "Name"
-msgstr "Имя"
-
-#: \views\cities\view.ctp:24
-msgid "Delete City"
-msgstr ""
-
-#: \views\cities\view.ctp:34
-#: \views\languages\view.ctp:27
-msgid "Related Users"
-msgstr ""
-
-#: \views\cities\view.ctp:40
-#: \views\languages\view.ctp:33
-#: \views\users\add.ctp:48
-#: \views\users\search.ctp:158;170
-#: \views\users\view.ctp:40
-msgid "Surname"
-msgstr "Фамилия"
-
-#: \views\cities\view.ctp:41
-#: \views\languages\view.ctp:34
-#: \views\users\add.ctp:51
-#: \views\users\search.ctp:159;171
-#: \views\users\view.ctp:45
-msgid "Email"
-msgstr "Электропочта"
-
-#: \views\cities\view.ctp:42
-#: \views\languages\view.ctp:35
-#: \views\users\add.ctp:52
-msgid "Password"
-msgstr "Пароль"
-
-#: \views\cities\view.ctp:43
-#: \views\languages\view.ctp:36
-msgid "City Id"
-msgstr ""
-
-#: \views\cities\view.ctp:44
-#: \views\languages\view.ctp:37
-#: \views\users\add.ctp:61
-#: \views\users\view.ctp:76
-msgid "Message"
-msgstr "Сообщение"
-
-#: \views\cities\view.ctp:45
-#: \views\languages\view.ctp:38
-#: \views\users\add.ctp:49
-#: \views\users\search.ctp:161;173
-#: \views\users\view.ctp:63
-msgid "Gender"
-msgstr "Пол"
-
-#: \views\countries\add.ctp:4
-msgid "Add Country"
-msgstr ""
-
-#: \views\countries\edit.ctp:4
-#: \views\countries\view.ctp:18
-msgid "Edit Country"
-msgstr ""
-
-#: \views\countries\index.ctp:2
-msgid "Countries"
-msgstr "Страны"
-
-#: \views\countries\view.ctp:19
-msgid "Delete Country"
-msgstr ""
-
-#: \views\countries\view.ctp:27
-msgid "Related Cities"
-msgstr ""
-
-#: \views\countries\view.ctp:32
-msgid "Country Id"
-msgstr ""
-
 #: \views\elements\errors.ctp:5
 msgid "validation_errors"
 msgstr "В введенных данных обнаружено %d ошибок. Пожалуйста, исправте их."
-
-#: \views\groups\add.ctp:4
-msgid "Add Group"
-msgstr ""
-
-#: \views\groups\add.ctp:13
-#: \views\groups\edit.ctp:15
-#: \views\groups\view.ctp:30
-msgid "List Groups"
-msgstr ""
-
-#: \views\groups\edit.ctp:4
-#: \views\groups\view.ctp:28
-msgid "Edit Group"
-msgstr ""
-
-#: \views\groups\index.ctp:2
-msgid "Groups"
-msgstr ""
-
-#: \views\groups\index.ctp:54
-#: \views\groups\view.ctp:31
-msgid "New Group"
-msgstr ""
-
-#: \views\groups\view.ctp:2
-#: \views\users\add.ctp:63
-msgid "Group"
-msgstr "Группа"
-
-#: \views\groups\view.ctp:14
-#: \views\languages\view.ctp:40
-#: \views\users\view.ctp:130
-msgid "Created"
-msgstr ""
-
-#: \views\groups\view.ctp:19
-#: \views\languages\view.ctp:41
-#: \views\users\view.ctp:135
-msgid "Modified"
-msgstr ""
-
-#: \views\groups\view.ctp:29
-msgid "Delete Group"
-msgstr ""
 
 #: \views\helpers\mailto.php:20
 msgid "new_window"
 msgstr " (открывается в новом окне)"
 
 #: \views\helpers\multicheckbox.php:34
-#: \views\languages\view.ctp:2
 msgid "Language"
 msgstr "Язык"
 
@@ -724,101 +261,20 @@ msgid "My level"
 msgstr "Мой уровень"
 
 #: \views\helpers\multicheckbox.php:49
-msgid "native"
+msgid "Native"
 msgstr "родной"
 
 #: \views\helpers\multicheckbox.php:49
-msgid "basic"
-msgstr "начальный"
+msgid "Advanced"
+msgstr "продвинутый"
 
 #: \views\helpers\multicheckbox.php:49
-msgid "fluent"
-msgstr "бегло"
+msgid "Intermediate"
+msgstr "средний"
 
-#: \views\info\regulations.ctp:16
-#: \views\pages\regulations.ctp:11
-msgid "Regulations for using LanguageDuo.com"
-msgstr ""
-
-#: \views\languages\add.ctp:4
-msgid "Add Language"
-msgstr ""
-
-#: \views\languages\add.ctp:14
-#: \views\languages\edit.ctp:16
-#: \views\languages\view.ctp:20
-#: \views\users\add.ctp:80
-#: \views\users\index.ctp:87
-#: \views\users\search.ctp:269
-msgid "List Languages"
-msgstr ""
-
-#: \views\languages\edit.ctp:4
-#: \views\languages\view.ctp:18
-msgid "Edit Language"
-msgstr ""
-
-#: \views\languages\index.ctp:2
-msgid "Languages"
-msgstr "Языки"
-
-#: \views\languages\index.ctp:46
-#: \views\languages\view.ctp:21
-msgid "New Language"
-msgstr ""
-
-#: \views\languages\view.ctp:19
-msgid "Delete Language"
-msgstr ""
-
-#: \views\languages\view.ctp:39
-#: \views\users\view.ctp:125
-msgid "Group Id"
-msgstr ""
-
-#: \views\languages_users\add.ctp:4
-msgid "Add LanguagesUser"
-msgstr ""
-
-#: \views\languages_users\add.ctp:15
-#: \views\languages_users\edit.ctp:17
-#: \views\languages_users\view.ctp:30
-msgid "List LanguagesUsers"
-msgstr ""
-
-#: \views\languages_users\edit.ctp:4
-#: \views\languages_users\view.ctp:28
-msgid "Edit LanguagesUser"
-msgstr ""
-
-#: \views\languages_users\index.ctp:2
-msgid "LanguagesUsers"
-msgstr ""
-
-#: \views\languages_users\index.ctp:54
-#: \views\languages_users\view.ctp:31
-msgid "New LanguagesUser"
-msgstr ""
-
-#: \views\languages_users\view.ctp:2
-msgid "LanguagesUser"
-msgstr ""
-
-#: \views\languages_users\view.ctp:9
-msgid "Language Id"
-msgstr ""
-
-#: \views\languages_users\view.ctp:14
-msgid "User Id"
-msgstr ""
-
-#: \views\languages_users\view.ctp:19
-msgid "Offer"
-msgstr ""
-
-#: \views\languages_users\view.ctp:29
-msgid "Delete LanguagesUser"
-msgstr ""
+#: \views\helpers\multicheckbox.php:49
+msgid "Beginner"
+msgstr "начальный"
 
 # не забываем про пробел в конце
 #: \views\layouts\default.ctp:100
@@ -845,10 +301,52 @@ msgstr "Разработка <a href=\"mailto:mail@vadimfrolov.com\">Вадим�
 msgid "Register user"
 msgstr "Добавить пользователя"
 
+#: \views\users\add.ctp:47
+#: \views\users\search.ctp:157;169
+#: \views\users\view.ctp:35
+msgid "Name"
+msgstr "Имя"
+
+#: \views\users\add.ctp:48
+#: \views\users\search.ctp:158;170
+#: \views\users\view.ctp:40
+msgid "Surname"
+msgstr "Фамилия"
+
+#: \views\users\add.ctp:49
+#: \views\users\search.ctp:161;173
+#: \views\users\view.ctp:63
+msgid "Gender"
+msgstr "Пол"
+
 #: \views\users\add.ctp:50
 #: \views\users\view.ctp:68
 msgid "Age"
 msgstr "Возраст"
+
+#: \views\users\add.ctp:51
+#: \views\users\search.ctp:159;171
+#: \views\users\view.ctp:45
+msgid "Email"
+msgstr "Электропочта"
+
+#: \views\users\add.ctp:52
+msgid "Password"
+msgstr "Пароль"
+
+#: \views\users\add.ctp:53
+#: \views\users\home.ctp:43
+#: \views\users\search.ctp:123
+#: \views\users\view.ctp:53
+msgid "Country"
+msgstr "Страна"
+
+#: \views\users\add.ctp:54
+#: \views\users\home.ctp:51
+#: \views\users\search.ctp:131
+#: \views\users\view.ctp:58
+msgid "City"
+msgstr "Город"
 
 #: \views\users\add.ctp:57
 #: \views\users\edit.ctp:87
@@ -859,6 +357,11 @@ msgstr "Знаю"
 #: \views\users\edit.ctp:88
 msgid "Looking for"
 msgstr "Хочу изучать"
+
+#: \views\users\add.ctp:61
+#: \views\users\view.ctp:76
+msgid "Message"
+msgstr "Сообщение"
 
 #: \views\users\add.ctp:66
 msgid "disclaimer_link_left"
@@ -874,12 +377,6 @@ msgstr "Пользовательским соглашением"
 msgid "Submit"
 msgstr "Отправить"
 
-#: \views\users\add.ctp:81
-#: \views\users\index.ctp:88
-#: \views\users\search.ctp:270
-msgid "New Offer"
-msgstr ""
-
 #: \views\users\edit.ctp:68
 msgid "Edit user"
 msgstr "Редактирование профиля"
@@ -892,7 +389,12 @@ msgstr "Старый пароль"
 msgid "New password"
 msgstr "Новый пароль"
 
-#: \views\users\edit.ctp:104;111
+#: \views\users\edit.ctp:111
+#: \views\users\search.ctp:236
+msgid "Delete"
+msgstr "Удалить"
+
+#: \views\users\edit.ctp:111
 msgid "Are you sure you want to delete user %s %s?"
 msgstr "Вы уверены, что хотите удалить информацию о пользователе «%s %s»?"
 
@@ -931,13 +433,9 @@ msgstr "— Ничего не выбрано —"
 msgid "selection_country_first"
 msgstr "— Выбирете сначала страну —"
 
-#: \views\users\index.ctp:2
-msgid "Users"
-msgstr "Пользователи"
-
 #: \views\users\login.ctp:5
-msgid "Sign in to LanguageDuo with your account"
-msgstr "Войти, используя вашу учетную запись"
+msgid "sign_in_page_text"
+msgstr "Зайти"
 
 #: \views\users\login.ctp:10
 msgid "Remember_label"
@@ -969,26 +467,30 @@ msgstr "Знает"
 msgid "search_page_looking_for"
 msgstr "Хочет изучать"
 
+#: \views\users\search.ctp:164;176
+msgid "Actions"
+msgstr "Действия"
+
 #: \views\users\search.ctp:197
 #: \views\users\view.ctp:49
 msgid "View email"
 msgstr "Посмотреть адрес электропочты"
 
+#: \views\users\search.ctp:231
+msgid "View"
+msgstr "Посмотреть профиль"
+
+#: \views\users\search.ctp:235
+msgid "Edit"
+msgstr "Редактировать"
+
 #: \views\users\view.ctp:23
 msgid "Personal information"
 msgstr "Информация о пользователе"
 
-#: \views\users\view.ctp:140
-msgid "Last login"
-msgstr ""
-
-#: \views\users\view.ctp:154;169
+#: \views\users\view.ctp:169
 msgid "Edit User"
 msgstr "Редактировать"
-
-#: \views\users\view.ctp:155
-msgid "Delete User"
-msgstr "Удалить"
 
 #: \webroot\c_c.php:2
 msgid "Russia"
@@ -1418,10 +920,33 @@ msgstr "Мандарин"
 msgid "Ukrainian"
 msgstr "Украинский"
 
+# do not translate
 #: \webroot\test.php:98
 msgid "Debug setting does not allow access to this url."
 msgstr ""
 
+#~ msgid "Delete User"
+#~ msgstr "Удалить"
+#~ msgid "Invalid city"
+#~ msgstr "Несуществующий город"
+#~ msgid "Everything has been done."
+#~ msgstr "Все задания были выполнены"
+#~ msgid "Invalid Language."
+#~ msgstr "Несуществующий язык"
+#~ msgid "Countries"
+#~ msgstr "Страны"
+#~ msgid "Group"
+#~ msgstr "Группа"
+#~ msgid "basic"
+#~ msgstr "начальный"
+#~ msgid "fluent"
+#~ msgstr "бегло"
+#~ msgid "Languages"
+#~ msgstr "Языки"
+#~ msgid "Users"
+#~ msgstr "Пользователи"
+#~ msgid "Sign in to LanguageDuo with your account"
+#~ msgstr "Войти, используя вашу учетную запись"
 #~ msgid "Search"
 #~ msgstr "Поиск партнера"
 #~ msgid "new_user_email_text"

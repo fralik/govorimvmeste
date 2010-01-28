@@ -11,7 +11,7 @@ class CitiesController extends AppController {
 
 	function view($id = null) {
 		if (!$id) {
-			$this->Session->setFlash(__('Invalid city', true));
+			$this->Session->setFlash('Invalid city');
 			$this->redirect(array('action'=>'index'));
 		}
 		$this->set('city', $this->City->read(null, $id));
@@ -21,10 +21,10 @@ class CitiesController extends AppController {
 		if (!empty($this->data)) {
 			$this->City->create();
 			if ($this->City->save($this->data)) {
-				$this->Session->setFlash(__('The City has been saved', true));
+				$this->Session->setFlash('The City has been saved');
 				$this->redirect(array('action'=>'index'));
 			} else {
-				$this->Session->setFlash(__('The City could not be saved. Please, try again.', true));
+				$this->Session->setFlash('The City could not be saved. Please, try again.');
 			}
 		}
 		$countries = $this->City->Country->find('list');
@@ -33,15 +33,15 @@ class CitiesController extends AppController {
 
 	function edit($id = null) {
 		if (!$id && empty($this->data)) {
-			$this->Session->setFlash(__('Invalid city', true));
+			$this->Session->setFlash('Invalid city');
 			$this->redirect(array('action'=>'index'));
 		}
 		if (!empty($this->data)) {
 			if ($this->City->save($this->data)) {
-				$this->Session->setFlash(__('The City has been saved', true));
+				$this->Session->setFlash('City has been saved');
 				$this->redirect(array('action'=>'index'));
 			} else {
-				$this->Session->setFlash(__('The City could not be saved. Please, try again.', true));
+				$this->Session->setFlash('City could not be saved. Please, try again.');
 			}
 		}
 		if (empty($this->data)) {
@@ -53,11 +53,11 @@ class CitiesController extends AppController {
 
 	function delete($id = null) {
 		if (!$id) {
-			$this->Session->setFlash(__('Invalid id for City', true));
+			$this->Session->setFlash('Invalid id for City');
 			$this->redirect(array('action'=>'index'));
 		}
 		if ($this->City->del($id)) {
-			$this->Session->setFlash(__('City deleted', true));
+			$this->Session->setFlash('City deleted');
 			$this->redirect(array('action'=>'index'));
 		}
 	}

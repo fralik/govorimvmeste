@@ -26,7 +26,7 @@ asort($wants);
 			if ($isAdmin)
 			{ 
 		?>
-		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Id'); ?></dt>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php echo 'Id'; ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $user['User']['id']; ?>
 			&nbsp;
@@ -122,22 +122,22 @@ asort($wants);
 			if ($isAdmin)
 			{ 
 		?>
-		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Group Id'); ?></dt>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php echo 'Group Id'; ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $user['User']['group_id']; ?>
 			&nbsp;
 		</dd>
-		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Created'); ?></dt>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php echo 'Created'; ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $user['User']['created']; ?>
 			&nbsp;
 		</dd>
-		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Modified'); ?></dt>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php echo 'Modified'; ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $user['User']['modified']; ?>
 			&nbsp;
 		</dd>
-		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Last login'); ?></dt>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php echo 'Last login'; ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $user['User']['last_login']; ?>
 			&nbsp;
@@ -151,10 +151,10 @@ if ($isAdmin)
 ?>
 <div class="actions">
 	<ul>
-		<li><?php echo $html->link(__('Edit User', true), array('action' => 'edit', $user['User']['id'])); ?> </li>
-		<li><?php echo $html->link(__('Delete User', true), array('action' => 'delete', $user['User']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $user['User']['id'])); ?> </li>
-		<li><?php echo $html->link(__('List Users', true), array('action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('New User', true), array('action' => 'add')); ?> </li>
+		<li><?php echo $html->link('Edit User', array('action' => 'edit', $user['User']['id'])); ?> </li>
+		<li><?php echo $html->link('Delete User', array('action' => 'delete', $user['User']['id']), null, sprintf('Are you sure you want to delete # %s?', $user['User']['id'])); ?> </li>
+		<li><?php echo $html->link('List Users', array('action' => 'index')); ?> </li>
+		<li><?php echo $html->link('New User', array('action' => 'add')); ?> </li>
 	</ul>
 </div>
 <?php

@@ -196,7 +196,7 @@ class CountriesController extends AppController {
 		// }
 		fwrite($fp, utf8_encode("// Note, that you should also link to cc_logic.js from the calling file\n"));
 		fclose($fp);
-		$this->Session->setFlash(__('Everything has been done.', true));
+		$this->Session->setFlash('Everything has been done.'));
 		//$this->redirect(array('action'=>'index'));
 	}
 	
@@ -224,7 +224,7 @@ class CountriesController extends AppController {
 		fwrite($fp, utf8_encode("__('male');\n__('female');\n"));
 		fwrite($fp, utf8_encode("?>"));
 		fclose($fp);
-		$this->Session->setFlash(__('Everything has been done.', true));
+		$this->Session->setFlash('Everything has been done.');
 		//$this->redirect(array('action'=>'index'));
 	}
 
@@ -232,7 +232,7 @@ class CountriesController extends AppController {
 	{
 		if (!$id) 
 		{
-			$this->Session->setFlash(__('Invalid country', true));
+			$this->Session->setFlash('Invalid country');
 			$this->redirect(array('action'=>'index'));
 		}
 		print_r($this->Country->read(null, $id));
@@ -243,25 +243,25 @@ class CountriesController extends AppController {
 		if (!empty($this->data)) {
 			$this->Country->create();
 			if ($this->Country->save($this->data)) {
-				$this->Session->setFlash(__('The Country has been saved', true));
+				$this->Session->setFlash('Country has been saved');
 				$this->redirect(array('action'=>'index'));
 			} else {
-				$this->Session->setFlash(__('The Country could not be saved. Please, try again.', true));
+				$this->Session->setFlash('The Country could not be saved. Please, try again.');
 			}
 		}
 	}
 
 	function edit($id = null) {
 		if (!$id && empty($this->data)) {
-			$this->Session->setFlash(__('Invalid country', true));
+			$this->Session->setFlash('Invalid country');
 			$this->redirect(array('action'=>'index'));
 		}
 		if (!empty($this->data)) {
 			if ($this->Country->save($this->data)) {
-				$this->Session->setFlash(__('The Country has been saved', true));
+				$this->Session->setFlash('Country has been saved');
 				$this->redirect(array('action'=>'index'));
 			} else {
-				$this->Session->setFlash(__('The Country could not be saved. Please, try again.', true));
+				$this->Session->setFlash('The Country could not be saved. Please, try again.');
 			}
 		}
 		if (empty($this->data)) {
@@ -271,11 +271,11 @@ class CountriesController extends AppController {
 
 	function delete($id = null) {
 		if (!$id) {
-			$this->Session->setFlash(__('Invalid id for Country', true));
+			$this->Session->setFlash('Invalid id for Country');
 			$this->redirect(array('action'=>'index'));
 		}
 		if ($this->Country->del($id)) {
-			$this->Session->setFlash(__('Country deleted', true));
+			$this->Session->setFlash('Country deleted');
 			$this->redirect(array('action'=>'index'));
 		}
 	}

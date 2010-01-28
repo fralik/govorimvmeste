@@ -233,7 +233,7 @@ if (isset($users))
 				if ($isAdmin)
 				{ ?>
 			<?php echo $html->link(__('Edit', true), array('action' => 'edit', $user['User']['id'])); ?>
-			<?php echo $html->link(__('Delete', true), array('action' => 'delete', $user['User']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $user['User']['id'])); ?>
+			<?php echo $html->link(__('Delete', true), array('action' => 'delete', $user['User']['id']), null, sprintf('Are you sure you want to delete # %s?', $user['User']['id'])); ?>
 			<?php } ?>
 		</td>
 	</tr>
@@ -261,13 +261,13 @@ if ($isAdmin)
 { ?>
 <div class="actions">
 	<ul>
-		<li><?php echo $html->link(__('New User', true), array('action' => 'add')); ?></li>
-		<li><?php echo $html->link(__('List Cities', true), array('controller' => 'cities', 'action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('New City', true), array('controller' => 'cities', 'action' => 'add')); ?> </li>
-		<li><?php echo $html->link(__('List Countries', true), array('controller' => 'countries', 'action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('New Country', true), array('controller' => 'countries', 'action' => 'add')); ?> </li>
-		<li><?php echo $html->link(__('List Languages', true), array('controller' => 'languages', 'action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('New Offer', true), array('controller' => 'languages', 'action' => 'add')); ?> </li>
+		<li><?php echo $html->link('New User', array('action' => 'add')); ?></li>
+		<li><?php echo $html->link('List Cities', array('controller' => 'cities', 'action' => 'index')); ?> </li>
+		<li><?php echo $html->link('New City', array('controller' => 'cities', 'action' => 'add')); ?> </li>
+		<li><?php echo $html->link('List Countries', array('controller' => 'countries', 'action' => 'index')); ?> </li>
+		<li><?php echo $html->link('New Country', array('controller' => 'countries', 'action' => 'add')); ?> </li>
+		<li><?php echo $html->link('List Languages', array('controller' => 'languages', 'action' => 'index')); ?> </li>
+		<li><?php echo $html->link('New Offer', array('controller' => 'languages', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
 <?php } ?>

@@ -60,7 +60,7 @@ RecaptchaOptions.theme = 'clean';
 			//echo $form->input('want', array('label' => __('Looking for', true), 'multiple' => true, 'options' => $want) );
 			echo $form->input('message', array('label' => __('Message', true), 'class' => 'wide' ));
 			if ($isAdmin)
-				echo $form->input('group_id', array('label' => __('Group', true) ));
+				echo $form->input('group_id', array('label' => 'Group' ));
 		$recaptcha->display_form('echo');
 	?>
 	<p><?php __('disclaimer_link_left'); echo $html->link(__('disclaimer_link', true), array('controller' => 'pages', 'action' => 'regulations')); ?></p>
@@ -72,13 +72,13 @@ if ($isAdmin)
 {?>
 <div class="actions">
 	<ul>
-		<li><?php echo $html->link(__('List Users', true), array('action' => 'index'));?></li>
-		<li><?php echo $html->link(__('List Cities', true), array('controller' => 'cities', 'action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('New City', true), array('controller' => 'cities', 'action' => 'add')); ?> </li>
-		<li><?php echo $html->link(__('List Countries', true), array('controller' => 'countries', 'action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('New Country', true), array('controller' => 'countries', 'action' => 'add')); ?> </li>
-		<li><?php echo $html->link(__('List Languages', true), array('controller' => 'languages', 'action' => 'index')); ?> </li>
-		<li><?php echo $html->link(__('New Offer', true), array('controller' => 'languages', 'action' => 'add')); ?> </li>
+		<li><?php echo $html->link('List Users', array('action' => 'index'));?></li>
+		<li><?php echo $html->link('List Cities', array('controller' => 'cities', 'action' => 'index')); ?> </li>
+		<li><?php echo $html->link('New City', array('controller' => 'cities', 'action' => 'add')); ?> </li>
+		<li><?php echo $html->link('List Countries', array('controller' => 'countries', 'action' => 'index')); ?> </li>
+		<li><?php echo $html->link('New Country', array('controller' => 'countries', 'action' => 'add')); ?> </li>
+		<li><?php echo $html->link('List Languages', array('controller' => 'languages', 'action' => 'index')); ?> </li>
+		<li><?php echo $html->link('New Offer', array('controller' => 'languages', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
 <?php } ?>

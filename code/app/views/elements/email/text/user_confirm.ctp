@@ -3,13 +3,13 @@
 ?>
 Dear <?php echo $user_name; ?>,
 
-thank you for signing up to <?php echo $project_name; ?>, the best way to find your language partner.
-Firstly, we need you to confirm your email address by visiting this link:
+Thank you for registering at <?php echo $project_name; ?>, the best way to find your language partners!
+Firstly, we need you to confirm your e-mail address by visiting this link:
 <?php echo $activate_url; ?>
 
 
-If you didn't sign up to <?php echo $project_name; ?>, please discard this e-mail and we won't e-mail you again.
+If you didn't register at <?php echo $project_name; ?>, please discard this e-mail.
 
-Sincerely yours,
-<?php echo $project_name; ?> team.
+Sincerely,
+The <?php echo $project_name; ?> team
 

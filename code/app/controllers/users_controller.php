@@ -137,7 +137,7 @@ class UsersController extends AppController
 	
 	function view($id = null) 
 	{
-		$this->pageTitle = __('Person details', true);
+		$this->pageTitle = __('Personal details', true);
 		if (!$id) 
 		{
 			$this->Session->setFlash(__('Invalid user', true));

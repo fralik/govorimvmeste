@@ -2,7 +2,7 @@
 $session->flash();
 $session->flash('auth');
 ?>
-<h2><?php __('Sign in to LanguageDuo with your account'); ?></h2>
+<h2><?php __('sign_in_page_text'); ?></h2>
 <?php
 echo $form->create('User', array('action' => 'login'));
 echo $form->input('User.email');
