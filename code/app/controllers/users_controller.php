@@ -65,7 +65,7 @@ class UsersController extends AppController
 			{
 				// Retrieve user data
 				$results =  $this->User->find(array('User.email' => $this->data['User']['email']), array('User.active'), null, false);
-				// Check to see if the User’s account isn’t active
+				// Check to see if the User?s account isn?t active
 				if ($results['User']['active'] == 0) 
 				{
 						// Uh Oh!
@@ -300,7 +300,7 @@ class UsersController extends AppController
 		
 		if (!empty($this->data)) 
 		{
-			$this->User->set($this->data);
+			//$this->User->set($this->data);
 
 			$offer_levels = $this->_get_levels($this->data['User']['offer'], $this->data['User']['level']['offer']);
 			
@@ -321,7 +321,7 @@ class UsersController extends AppController
 					//print_r($this->data);
 					//$this->data['User']['password'] = $this->Auth->password($this->data['User']['password']);
 					$this->data['User']['message'] = Sanitize::html($this->data['User']['message']);
-					$this->User->data = Sanitize::clean($this->data);
+					$cleaned_data = Sanitize::clean($this->data);
 					if (!$this->isAdmin())
 					{
 						$group = $this->User->Group->findByName('users');
@@ -330,19 +330,11 @@ class UsersController extends AppController
 					}
 					$this->User->create();
 					//if ($this->User->saveAll($this->data, array('validate' => false) )) 
-					if ($this->User->save($this->data)) 
+					if ($this->User->save($cleaned_data)) 
 					{
 						//$this->Auth->login($this->data);
 						
 						$this->data['User']['password'] = "";
-						//TODO: probably we need to check the email field
-						$params = array(
-							'conditions' => array('User.email' => $this->data['User']['email']),
-							'recursive' => 0,
-							'fields' => array('User.id')
-							);
-						//$res = $this->User->find('first', $params);
-						//$user_id = $res['User']['id'];
 						$user_id = $this->User->getLastInsertID();
 						
 						$user = $this->data['User'];
@@ -471,9 +463,11 @@ class UsersController extends AppController
 					}
 				}
 				
+                $cleaned_data = Sanitize::clean($this->data);
+                
 				$offer_levels = $this->_get_levels($this->data['User']['offer'], $this->data['User']['level']['offer']);
 				
-				if ($this->User->save($this->data)) 
+				if ($this->User->save($cleaned_data)) 
 				{
 					$this->Session->setFlash(__('The User has been saved', true));
 					$this->data['User']['oldpassword'] = "";
@@ -674,7 +668,7 @@ class UsersController extends AppController
 					//$this->redirect(array('action' => 'login', 'lang' => $locale), null, true);
 			}
 			$this->redirect($this->def_redirect);
-			// Activation failed, render ‘/views/user/activate.ctp’ which should tell the user.
+			// Activation failed, render ?/views/user/activate.ctp? which should tell the user.
 	}
 	
 	// function test()
