@@ -1,12 +1,11 @@
 <?php
-class CountriesController extends AppController {
+class CountriesController extends AppController 
+{
 
 	var $name = 'Countries';
-	//var $helpers = array('Html', 'Form');
-	//var $components = array('LanguageHelper', 'ProjectnameHelper');
 
 	var $helpers = array('Html', 'Form', 'Javascript', 'Mailto', 'Multicheckbox');
-	var $components = array('Recaptcha', 'PasswordHelper', 'Mailer', 'LanguageHelper','ProjectnameHelper');
+	var $components = array('Recaptcha', 'PasswordHelper', 'Mailer', 'LanguageHelper', 'ProjectnameHelper');
 
 	function index() 
 	{
@@ -18,9 +17,9 @@ class CountriesController extends AppController {
 	function beforeFilter() 
 	{
 		parent::beforeFilter(); 
-		// TODO: do not forget to change this:
+		// TODO: do not forget to change this for production:
 		//$this->Auth->allowedActions = array('*');
-		$this->Auth->allowedActions = array('search', 'add');
+		//$this->Auth->allowedActions = array('search', 'add');
 	}
 
 	function _genRandStr($minLen, $maxLen, $alphaLower = 1, $alphaUpper = 1, $num = 1, $batch = 1) 
@@ -40,24 +39,6 @@ class CountriesController extends AppController {
 				$strLen = rand($minLen, $maxLen);
 			}
 			$merged = array_merge($alphaLowerArray, $alphaUpperArray, $numArray);
-        
-			// if ($alphaLower == 1 && $alphaUpper == 1 && $num == 1) {
-				// $finalArray = array_merge($alphaLowerArray, $alphaUpperArray, $numArray);
-			// } elseif ($alphaLower == 1 && $alphaUpper == 1 && $num == 0) {
-				// $finalArray = array_merge($alphaLowerArray, $alphaUpperArray);
-			// } elseif ($alphaLower == 1 && $alphaUpper == 0 && $num == 1) {
-				// $finalArray = array_merge($alphaLowerArray, $numArray);
-			// } elseif ($alphaLower == 0 && $alphaUpper == 1 && $num == 1) {
-				// $finalArray = array_merge($alphaUpperArray, $numArray);
-			// } elseif ($alphaLower == 1 && $alphaUpper == 0 && $num == 0) {
-				// $finalArray = $alphaLowerArray;
-			// } elseif ($alphaLower == 0 && $alphaUpper == 1 && $num == 0) {
-				// $finalArray = $alphaUpperArray;                        
-			// } elseif ($alphaLower == 0 && $alphaUpper == 0 && $num == 1) {
-				// $finalArray = $numArray;
-			// } else {
-				// return FALSE;
-			// }
 			
 			$finalArray = array_merge($alphaLowerArray, $alphaUpperArray);
         
@@ -168,36 +149,9 @@ class CountriesController extends AppController {
 			$var_name = $this->_genRandStr(3, 3, 1, 0, 1, 1);
 		}
 		
-		
-		// foreach ($countries as &$country_not_full)
-		// {
-			// $country = $this->Country->read(null, $country_not_full['Country']['id']);
-			// $con_id = $country['Country']['id'];
-			// $con_name_tr = __($country['Country']['name'], true);
-			// $con_name = $country['Country']['name'];
-			// $cities = $country['City']; 
-			// $str = utf8_encode("var ") . $con_name . utf8_encode(" = [ ");
-			// foreach ($cities as &$city)
-			// {
-				// $left_id = utf8_encode("[");
-				// $right_id = utf8_encode(", \"");
-				// $right_city = utf8_encode("\"], ");
-				// $city_name = __($city['name'], true);
-				
-				// //$str = $str . "[{$city['id']}, \"{$city['name']}\"], ";
-				// $str = $str . $left_id . $city['id']. $right_id . $city_name . $right_city;
-			// }
-			// $str = substr_replace($str ,"", -2); // remove last blank and comma
-			// $str = $str . utf8_encode("];\n");
-			// $str = $str . utf8_encode("countriesAndCites[") . $con_id . utf8_encode("] = new Array();\n" .
-					// "countriesAndCites[") . $con_id . utf8_encode("][\"") . $con_name_tr .
-					// utf8_encode("\"] = ") . $con_name . utf8_encode(";\n\n");
-			// fwrite($fp, $str);
-		// }
 		fwrite($fp, utf8_encode("// Note, that you should also link to cc_logic.js from the calling file\n"));
 		fclose($fp);
-		$this->Session->setFlash('Everything has been done.'));
-		//$this->redirect(array('action'=>'index'));
+		$this->Session->setFlash('Everything has been done.');
 	}
 	
 	function dump_php($name = "c_c.php")
