@@ -1,0 +1,12 @@
+$ cat .gitignore
+
+app/tmp/**/*
+
+app/config/core.php
+
+app/config/database.php
+
+!app/tmp/cache/empty
+!app/tmp/logs/empty
+!app/tmp/sessions/empty
+!app/tmp/test/empty
