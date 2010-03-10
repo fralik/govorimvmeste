@@ -57,39 +57,6 @@ if (isset($paginator))
 	$paginator->options['url']['?'] = $str;
 }
 
-// if (isset($this->data))
-// {
-	// if (isset($this->data['User']['language']))
-	// {
-		// $params['language'] = $this->data['User']['language']['0'];
-		// $params['country'] = $this->data['User']['country']['0'];
-		// $params['city'] = $this->data['User']['city']['0'];
-	// }
-	// else
-	// {
-		// foreach ($this->data as $k => $param)
-		// {
-			// $params[$k] = $param[0];
-		// }
-	// }
-
-	// if (isset($paginator))
-	// {
-		// // $this->params['language']
-		// //$paginator->options(array('url' => array_merge(array('lang' => $int_lang), $params)));
-		// pr(array_merge(array('lang' => $int_lang), $this->passedArgs, $params));
-		// $paginator->options(array('url' => array_merge(array('lang' => $int_lang), $this->passedArgs)));
-	// }
-// }
-// else
-// {
-	// if (isset($paginator))
-	// {
-		// //$paginator->options(array('url' => array_merge(array('lang' => $int_lang), $this->params['named'])));
-		// //pr($this->params);
-		// $paginator->options(array('url' => array_merge(array('lang' => $int_lang), $this->passedArgs)));
-	// }
-// }
 $users_count = 0;
 if (isset($users))
 {
@@ -103,10 +70,6 @@ if ($users_count > 0)
 		));
 }
 	$selected_language = $lang_id;
-	
-	//if (isset($params['language']))
-		//$selected_language = $params['language'];
-
 ?>
 <div class="search options">
 <h2><?php __('Search conditions');?></h2>
@@ -137,8 +100,38 @@ if ($users_count > 0)
 ?>
 </div>
 <div class="users index">
-<?php
+<?php 
+$sort_str = __('search_page_sort_by', true) . " ";
+$pag_params = $paginator->params();
+$paginator_sort_opt = $pag_params['options']['order'];
+$sort_id = key($paginator_sort_opt);
+$sort_type = $paginator_sort_opt[$sort_id];
 
+// echo "<pre>";
+// echo Sanitize::html(print_r($paginator, true));
+// echo "</pre>";
+if (strcmp($sort_id, "User.name") == 0)
+{
+}
+$label = $sort_id . "_" . $sort_type;
+echo __('cur_sort_type', true) . __($label, true) . ".<br />\n";
+ $sort_str = $sort_str . $paginator->sort(array('asc' => __('User.name_asc', true), 'desc' => __('User.name_desc', true)), 'User.name') . ", " .
+		$paginator->sort(array('asc' => __('User.surname_asc', true), 'desc' => __('User.surname_desc', true)), 'User.surname') . ", " . 
+		$paginator->sort(__('sort_age', true)) . " " .
+		$paginator->sort(__('sort_country', true)) . " " . $paginator->sort(__('sort_city', true));
+echo $sort_str;?>
+<table cellpadding="0" cellspacing="0">
+<tr align="left">
+	<td style="text-align:left;">Vadim Frolov, (25 лет, мужчина)<br />
+	Местоположение: Россия, Санкт–Петербург<br />
+	Посмотреть адрес электропочты</td>
+	<td style="text-align:left;">
+	Знает: Английский, Русский, Немецкий, ...<br />
+	Хочет изучать: Немецкий
+	</td><td style="text-align:left;"> Посмотреть полный профиль</td>
+</tr>
+</table><br /><br /><br /><br />
+<?php
 if (isset($users))
 {
 	if ($users_count == 0)
@@ -157,6 +150,7 @@ if (isset($users))
 				<th><?php echo $paginator->sort(__('Name', true));?></th>
 				<th><?php echo $paginator->sort(__('Surname', true));?></th>
 				<th><?php echo $paginator->sort(__('Email', true));?></th>
+				<th><?php echo $paginator->sort(__('Country', true));?></th>
 				<th><?php echo $paginator->sort(__('City name', true));?></th>
 				<th><?php echo $paginator->sort(__('Gender', true));?></th>
 				<th><?php __('Speaks')?></th>
@@ -169,6 +163,7 @@ if (isset($users))
 				<th><?php __('Name');?></th>
 				<th><?php __('Surname');?></th>
 				<th><?php __('Email');?></th>
+				<th><?php __('Country');?></th>
 				<th><?php __('City name');?></th>
 				<th><?php __('Gender');?></th>
 				<th><?php __('Speaks')?></th>
@@ -179,6 +174,7 @@ if (isset($users))
 		<?php
 			$i = 0;
 			foreach ($users as $user):
+//pr($user);
 				$class = null;
 				if ($i++ % 2 == 0) 
 				{
@@ -196,6 +192,9 @@ if (isset($users))
 			<?php //echo $user['User']['email']; 
 			$mailto->createLink($user['User']['email'], $user['User']['id'], __('View email', true)); 
 			?>
+		</td>
+		<td>
+			<nobr><?php __($user['Country']['name']); ?></nobr>
 		</td>
 		<td>
 			<nobr><?php __($user['City']['name']); ?></nobr>

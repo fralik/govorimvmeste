@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LanguageDuo v1.0\n"
-"POT-Creation-Date: 2010-01-28 13:04+0100\n"
+"POT-Creation-Date: 2010-03-08 22:19+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vadim Frolov <fralik@gmail.com>\n"
 "Language-Team: Vadim Frolov <fralik@gmail.com>\n"
@@ -51,14 +51,14 @@ msgstr "Извините, но профиль этого пользовател�
 msgid "Personal details"
 msgstr "Информация о пользователе"
 
-#: \controllers\users_controller.php:143;148;419;781
+#: \controllers\users_controller.php:143;148;411;775
 msgid "Invalid user"
 msgstr "Несуществующий пользователь"
 
 #: \controllers\users_controller.php:172
 #: \views\layouts\default.ctp:84
 #: \views\users\home.ctp:56
-#: \views\users\search.ctp:136
+#: \views\users\search.ctp:99
 msgid "Search for the partner"
 msgstr "Найти партнера"
 
@@ -67,55 +67,55 @@ msgstr "Найти партнера"
 msgid "Create an account"
 msgstr "Зарегистрироваться"
 
-#: \controllers\users_controller.php:317;795
+#: \controllers\users_controller.php:317;789
 msgid "Captcha is incorrect"
 msgstr "Введенны неправильные символы капчи"
 
-#: \controllers\users_controller.php:377
+#: \controllers\users_controller.php:369
 msgid "thanks_for_registration"
 msgstr "Спасибо за регистрацию! На указанный адрес электронной почты отправлено письмо с сылкой для подтверждения этого адреса."
 
-#: \controllers\users_controller.php:383;521
+#: \controllers\users_controller.php:375;515
 msgid "The User could not be saved. Please, try again."
 msgstr "Пользователь не может быть создан. Пожалуйста, попробуйте снова."
 
-#: \controllers\users_controller.php:414
+#: \controllers\users_controller.php:406
 msgid "Edit personal data"
 msgstr "Редактирование профиля"
 
-#: \controllers\users_controller.php:469
+#: \controllers\users_controller.php:461
 msgid "You have entered the wrong password"
 msgstr "Вы ввели неправильный пароль"
 
-#: \controllers\users_controller.php:478
+#: \controllers\users_controller.php:472
 msgid "The User has been saved"
 msgstr "Информация о пользователе успешно сохранена"
 
-#: \controllers\users_controller.php:529;543;568
+#: \controllers\users_controller.php:523;537;562
 msgid "You are not allowed to view this page."
 msgstr "У вас нет прав для просмотра этой страницы"
 
-#: \controllers\users_controller.php:554
+#: \controllers\users_controller.php:548
 msgid "Invalid id for user"
 msgstr "Неверный идентификатор пользователя"
 
-#: \controllers\users_controller.php:562
+#: \controllers\users_controller.php:556
 msgid "User deleted"
 msgstr "Учетная запись удалена"
 
-#: \controllers\users_controller.php:591;640
+#: \controllers\users_controller.php:585;634
 msgid "Password reset"
 msgstr "Сброс пароля"
 
-#: \controllers\users_controller.php:599
+#: \controllers\users_controller.php:593
 msgid "Invalid email"
 msgstr "Введенный адрес электронной почты не зарегистрирован на сайте"
 
-#: \controllers\users_controller.php:624
+#: \controllers\users_controller.php:618
 msgid "reset_send_success"
 msgstr "Ваш новый пароль успешно отправлен на указанный адрес электронной почты"
 
-#: \controllers\users_controller.php:636
+#: \controllers\users_controller.php:630
 msgid "new_password_email_text"
 msgstr ""
 "Уважаемый(ая) %s,\n"
@@ -126,27 +126,27 @@ msgstr ""
 "С уважением,\n"
 "команда разработчиков сайта «Говорим вместе»."
 
-#: \controllers\users_controller.php:642;647
+#: \controllers\users_controller.php:636;641
 msgid "new_pwd_send_fail"
 msgstr "Не удалось отправить сообщение с новым паролем. Попробуйте еще раз. Если ошибка не исчезнет, напишите письмо администрации сайта"
 
-#: \controllers\users_controller.php:667
+#: \controllers\users_controller.php:661
 msgid "activation_succcess"
 msgstr "Спасибо, вы успешно подтвердили свой адрес электронной почты. Теперь вы можете зайти на сайт."
 
-#: \controllers\users_controller.php:701
+#: \controllers\users_controller.php:695
 msgid "new_user_subject_text"
 msgstr "Подтверждение регистрации на сайте «%s»"
 
-#: \controllers\users_controller.php:704;709;745;750
+#: \controllers\users_controller.php:698;703;739;744
 msgid "new_user_send_fail"
 msgstr "Не удалось отправить письмо, уведомляющее об успешной регистрации нового пользователя."
 
-#: \controllers\users_controller.php:742
+#: \controllers\users_controller.php:736
 msgid "greetings_subject_text"
 msgstr "Добро пожаловать на сайт «%s»!"
 
-#: \controllers\users_controller.php:778
+#: \controllers\users_controller.php:772
 #: \views\users\email.ctp:28
 msgid "Unhide email"
 msgstr "Показать адрес электронной почты"
@@ -223,7 +223,7 @@ msgstr ""
 #: \views\languages\index.ctp:6
 #: \views\languages_users\index.ctp:6
 #: \views\users\index.ctp:6
-#: \views\users\search.ctp:102
+#: \views\users\search.ctp:69
 msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
 msgstr "Страница %page% из %page%, показываются %current% записей из %count%, начиная с запсиси %start% и заканчивая %end%"
 
@@ -232,7 +232,7 @@ msgstr "Страница %page% из %page%, показываются %current% 
 #: \views\languages\index.ctp:40
 #: \views\languages_users\index.ctp:48
 #: \views\users\index.ctp:76
-#: \views\users\search.ctp:254
+#: \views\users\search.ctp:253
 msgid "previous"
 msgstr "предыдущая"
 
@@ -240,7 +240,7 @@ msgstr "предыдущая"
 #: \views\groups\index.ctp:50
 #: \views\languages\index.ctp:42
 #: \views\users\index.ctp:78
-#: \views\users\search.ctp:256
+#: \views\users\search.ctp:255
 msgid "next"
 msgstr "следующая"
 
@@ -302,19 +302,19 @@ msgid "Register user"
 msgstr "Добавить пользователя"
 
 #: \views\users\add.ctp:47
-#: \views\users\search.ctp:157;169
+#: \views\users\search.ctp:150;163
 #: \views\users\view.ctp:35
 msgid "Name"
 msgstr "Имя"
 
 #: \views\users\add.ctp:48
-#: \views\users\search.ctp:158;170
+#: \views\users\search.ctp:151;164
 #: \views\users\view.ctp:40
 msgid "Surname"
 msgstr "Фамилия"
 
 #: \views\users\add.ctp:49
-#: \views\users\search.ctp:161;173
+#: \views\users\search.ctp:155;168
 #: \views\users\view.ctp:63
 msgid "Gender"
 msgstr "Пол"
@@ -325,7 +325,7 @@ msgid "Age"
 msgstr "Возраст"
 
 #: \views\users\add.ctp:51
-#: \views\users\search.ctp:159;171
+#: \views\users\search.ctp:152;165
 #: \views\users\view.ctp:45
 msgid "Email"
 msgstr "Электропочта"
@@ -336,14 +336,14 @@ msgstr "Пароль"
 
 #: \views\users\add.ctp:53
 #: \views\users\home.ctp:43
-#: \views\users\search.ctp:123
+#: \views\users\search.ctp:86;153;166
 #: \views\users\view.ctp:53
 msgid "Country"
 msgstr "Страна"
 
 #: \views\users\add.ctp:54
 #: \views\users\home.ctp:51
-#: \views\users\search.ctp:131
+#: \views\users\search.ctp:94
 #: \views\users\view.ctp:58
 msgid "City"
 msgstr "Город"
@@ -390,7 +390,7 @@ msgid "New password"
 msgstr "Новый пароль"
 
 #: \views\users\edit.ctp:111
-#: \views\users\search.ctp:236
+#: \views\users\search.ctp:235
 msgid "Delete"
 msgstr "Удалить"
 
@@ -419,17 +419,17 @@ msgid "main_page_search_help"
 msgstr "Поля «Страна» и «Город» необязательны для заполнения"
 
 #: \views\users\home.ctp:37
-#: \views\users\search.ctp:117
+#: \views\users\search.ctp:80
 msgid "search_language"
 msgstr "Язык для изучения"
 
 #: \views\users\home.ctp:69
-#: \views\users\search.ctp:283
+#: \views\users\search.ctp:282
 msgid "selection_none"
 msgstr "— Ничего не выбрано —"
 
 #: \views\users\home.ctp:70
-#: \views\users\search.ctp:284
+#: \views\users\search.ctp:283
 msgid "selection_country_first"
 msgstr "— Выбирете сначала страну —"
 
@@ -441,46 +441,82 @@ msgstr "Зайти"
 msgid "Remember_label"
 msgstr "Запомнить меня"
 
-#: \views\users\search.ctp:112
+#: \views\users\search.ctp:75
 msgid "Search conditions"
 msgstr "Условия поиска"
 
-#: \views\users\search.ctp:146
+#: \views\users\search.ctp:104
+msgid "search_page_sort_by"
+msgstr "Сортировать по"
+
+#: \views\users\search.ctp:117
+msgid "cur_sort_type"
+msgstr "Сейчас данные отсортированы по "
+
+#: \views\users\search.ctp:118
+msgid "User.name_asc"
+msgstr "имени ↑"
+
+#: \views\users\search.ctp:118
+msgid "User.name_desc"
+msgstr "имени ↓"
+
+#: \views\users\search.ctp:119
+msgid "User.surname_asc"
+msgstr "фамилии ↑"
+
+#: \views\users\search.ctp:119
+msgid "User.surname_desc"
+msgstr "фамилии ↓"
+
+#: \views\users\search.ctp:120
+msgid "sort_age"
+msgstr "возрасту"
+
+#: \views\users\search.ctp:121
+msgid "sort_country"
+msgstr "стране"
+
+#: \views\users\search.ctp:121
+msgid "sort_city"
+msgstr "городу"
+
+#: \views\users\search.ctp:139
 msgid "Found no people for this search conditions"
 msgstr "Ваш запрос не дал результатов"
 
-#: \views\users\search.ctp:150
+#: \views\users\search.ctp:143
 msgid "Found people"
 msgstr "Найдено"
 
-#: \views\users\search.ctp:160;172
+#: \views\users\search.ctp:154;167
 msgid "City name"
 msgstr "Город"
 
-#: \views\users\search.ctp:162;174
+#: \views\users\search.ctp:156;169
 #: \views\users\view.ctp:88
 msgid "Speaks"
 msgstr "Знает"
 
-#: \views\users\search.ctp:163;175
+#: \views\users\search.ctp:157;170
 #: \views\users\view.ctp:106
 msgid "search_page_looking_for"
 msgstr "Хочет изучать"
 
-#: \views\users\search.ctp:164;176
+#: \views\users\search.ctp:158;171
 msgid "Actions"
 msgstr "Действия"
 
-#: \views\users\search.ctp:197
+#: \views\users\search.ctp:193
 #: \views\users\view.ctp:49
 msgid "View email"
 msgstr "Посмотреть адрес электропочты"
 
-#: \views\users\search.ctp:231
+#: \views\users\search.ctp:230
 msgid "View"
 msgstr "Посмотреть профиль"
 
-#: \views\users\search.ctp:235
+#: \views\users\search.ctp:234
 msgid "Edit"
 msgstr "Редактировать"
 
@@ -920,11 +956,31 @@ msgstr "Мандарин"
 msgid "Ukrainian"
 msgstr "Украинский"
 
+#: \webroot\langs.php:30
+msgid "fluent"
+msgstr "бегло"
+
+#: \webroot\langs.php:31
+msgid "basic"
+msgstr "начальный"
+
+#: \webroot\langs.php:32
+msgid "native"
+msgstr "родной"
+
 # do not translate
 #: \webroot\test.php:98
 msgid "Debug setting does not allow access to this url."
 msgstr ""
 
+#~ msgid "sort_surname"
+#~ msgstr "фамилии"
+#~ msgid "sort_name"
+#~ msgstr "имени"
+
+#, fuzzy
+#~ msgid "Country name"
+#~ msgstr "Город"
 #~ msgid "Delete User"
 #~ msgstr "Удалить"
 #~ msgid "Invalid city"
@@ -937,10 +993,6 @@ msgstr ""
 #~ msgstr "Страны"
 #~ msgid "Group"
 #~ msgstr "Группа"
-#~ msgid "basic"
-#~ msgstr "начальный"
-#~ msgid "fluent"
-#~ msgstr "бегло"
 #~ msgid "Languages"
 #~ msgstr "Языки"
 #~ msgid "Users"

@@ -2,7 +2,7 @@
 App::import('Sanitize');
 class UsersController extends AppController 
 {
-	var $paginate = array('limit' => 25, 'order' => array('User.id' => 'asc'));
+	var $paginate = array('limit' => 25, 'order' => array('User.name' => 'desc'));
 
 	var $name = 'Users';
 	var $helpers = array('Html', 'Form', 'Javascript', 'Mailto', 'Multicheckbox');

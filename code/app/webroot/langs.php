@@ -26,4 +26,8 @@ echo __("Norwegian");
 echo __("Estonian");
 echo __("Mandarin Chinese");
 echo __("Ukrainian");
+
+echo __("fluent");
+echo __("basic");
+echo __("native");
 ?>

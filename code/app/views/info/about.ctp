@@ -6,10 +6,13 @@
 <h2>Contributions</h2>
 <p>You are warmly welcome to coontribute to the project. You can help us make <?php echo $pn; ?> better by making the improvements, contribution to the site design, help with the hosting, bug reporting. Visit http://github.com/fralik/govorimvmeste to find most recent information about project development.</p>
 
+<p>Site development is done through using “<a href="http://github.com/fralik/govorimvmeste/">Github</a>”. There you can find the source code (which you can download and use the way you like), list of current issues. If you would like to submit a bug report, then do it, please, using Github.</a>
+
 <h2>The team</h2>
-<p>Currently only one person is involved in the project development.
+<p>
 <ul>
 	<li><a href="mailto:mail@vadimfrolov.com">Vadim Frolov</a></li>
+	<li><a href="mailto:gregfeehan@gmail.com">Greg Freehan</a> (translation into English)</li>
 </ul>
 </p>
 <h2>Contacts</h2>
