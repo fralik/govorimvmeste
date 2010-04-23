@@ -156,16 +156,15 @@ table {
 	width: 100%;
 }
 
-table.multi
+table.searchr
 {
-	background: #fffff;
-	border: 0px solid red;
-	clear: none;
+    background: #fff;
+	border: 1px solid #ccc;
+	clear: both;
 	color: #333;
-	/*margin-bottom: 10px;
-	margin: 0px;
-	padding: 0px;*/
-	width: auto;
+	margin-bottom: 10px;
+	width: 100%;
+    border-bottom: 0;
 }
 
 table.uppermenu
@@ -205,20 +204,14 @@ table tr td {
 	vertical-align: top;
 }
 
-table tr td.multi
+table.searchr tr td 
 {
-	background: #ffffff;
-	border: 0px solid;
-	padding-left: 60px;
-	text-align: left;
-	vertical-align: top;
-}
-
-table tr td.multi_altrow
-{
-	background: #ffffff;
-	border: 0px solid;
+	background: #fff;
+    border-right: 0px solid #ccc;
+	border-bottom: 1px solid #ccc;
 	padding: 4px;
+    padding-top: 14px;
+    padding-bottom: 14px;
 	text-align: left;
 	vertical-align: top;
 }
@@ -229,7 +222,6 @@ table td.uppermenu
 	text-align: left;
 	/*width: 5%;*/
 }
-
 
 table tr.altrow td {
 	background: #f4f4f4;

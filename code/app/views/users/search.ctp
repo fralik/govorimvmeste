@@ -114,23 +114,14 @@ if (strcmp($sort_id, "User.name") == 0)
 {
 }
 $label = $sort_id . "_" . $sort_type;
+// output sorting options
 echo __('cur_sort_type', true) . __($label, true) . ".<br />\n";
- $sort_str = $sort_str . $paginator->sort(array('asc' => __('User.name_asc', true), 'desc' => __('User.name_desc', true)), 'User.name') . ", " .
-		$paginator->sort(array('asc' => __('User.surname_asc', true), 'desc' => __('User.surname_desc', true)), 'User.surname') . ", " . 
-		$paginator->sort(__('sort_age', true)) . " " .
-		$paginator->sort(__('sort_country', true)) . " " . $paginator->sort(__('sort_city', true));
+ $sort_str = $sort_str . $paginator->sort(array('asc' => __('User.name_asc', true), 'desc' => __('User.name_desc', true)), 'User.name') . ", " 
+        . $paginator->sort(array('asc' => __('User.surname_asc', true), 'desc' => __('User.surname_desc', true)), 'User.surname') . ", " 
+        . $paginator->sort(__('sort_age', true)) . ", " 
+        . $paginator->sort(__('sort_country', true)) . ", " 
+        . $paginator->sort(__('sort_city', true));
 echo $sort_str;?>
-<table cellpadding="0" cellspacing="0">
-<tr align="left">
-	<td style="text-align:left;">Vadim Frolov, (25 лет, мужчина)<br />
-	Местоположение: Россия, Санкт–Петербург<br />
-	Посмотреть адрес электропочты</td>
-	<td style="text-align:left;">
-	Знает: Английский, Русский, Немецкий, ...<br />
-	Хочет изучать: Немецкий
-	</td><td style="text-align:left;"> Посмотреть полный профиль</td>
-</tr>
-</table><br /><br /><br /><br />
 <?php
 if (isset($users))
 {
@@ -141,110 +132,95 @@ if (isset($users))
 	else
 	{ ?>
 		<h2><?php __('Found people');?></h2>
-		<p></p>
-		<table cellpadding="0" cellspacing="0">
-		<tr>
-		<?php
-			if (isset($paginator))
-			{ ?>
-				<th><?php echo $paginator->sort(__('Name', true));?></th>
-				<th><?php echo $paginator->sort(__('Surname', true));?></th>
-				<th><?php echo $paginator->sort(__('Email', true));?></th>
-				<th><?php echo $paginator->sort(__('Country', true));?></th>
-				<th><?php echo $paginator->sort(__('City name', true));?></th>
-				<th><?php echo $paginator->sort(__('Gender', true));?></th>
-				<th><?php __('Speaks')?></th>
-				<th><?php __('search_page_looking_for')?></th>
-				<th class="actions"><?php __('Actions');?></th>
-		<?php
-			}
-			else
-			{ ?>
-				<th><?php __('Name');?></th>
-				<th><?php __('Surname');?></th>
-				<th><?php __('Email');?></th>
-				<th><?php __('Country');?></th>
-				<th><?php __('City name');?></th>
-				<th><?php __('Gender');?></th>
-				<th><?php __('Speaks')?></th>
-				<th><?php __('search_page_looking_for')?></th>
-				<th class="actions"><?php __('Actions');?></th>
-		<?php } ?>
-		</tr>
+		<table cellpadding="0" cellspacing="0" class="searchr">
 		<?php
 			$i = 0;
-			foreach ($users as $user):
-//pr($user);
+			foreach ($users as $user)
+            {
 				$class = null;
 				if ($i++ % 2 == 0) 
 				{
 					$class = ' class="altrow"';
 				}
-		?>
-	<tr<?php echo $class;?>>
-		<td>
-			<?php echo $user['User']['name']; ?>
-		</td>
-		<td>
-			<?php echo $user['User']['surname']; ?>
-		</td>
-		<td>
-			<?php //echo $user['User']['email']; 
-			$mailto->createLink($user['User']['email'], $user['User']['id'], __('View email', true)); 
-			?>
-		</td>
-		<td>
-			<nobr><?php __($user['Country']['name']); ?></nobr>
-		</td>
-		<td>
-			<nobr><?php __($user['City']['name']); ?></nobr>
-		</td>
-		<td>
-			<?php __($user['User']['gender']); ?>
-		</td>
-		<td>
-			<?php 
-				$str = "";
-				foreach ($user['Offer'] as $lang)
-				{
-					$lang_name = __($lang['name'], true);
-					$str = $str . $lang_name . ", ";
-				}
-				$str = substr_replace($str, "", -2);
-				echo $str;
-			?>
-		</td>
-		<td>
-			<?php 
-				$str = "";
-				foreach ($user['Want'] as $lang)
-				{
-					$lang_name = __($lang['name'], true);
-					$str = $str . $lang_name . ", ";
-				}
-				$str = substr_replace($str, "", -2);
-				echo $str;
-			?>
-		</td>
-		<td class="actions">
-			<?php echo $html->link(__('View', true), array('action' => 'view', $user['User']['id'])); ?>
-			<?php 
-				if ($isAdmin)
-				{ ?>
-			<?php echo $html->link(__('Edit', true), array('action' => 'edit', $user['User']['id'])); ?>
-			<?php echo $html->link(__('Delete', true), array('action' => 'delete', $user['User']['id']), null, sprintf('Are you sure you want to delete # %s?', $user['User']['id'])); ?>
-			<?php } ?>
-		</td>
-	</tr>
-<?php endforeach; ?>
-</table>
-
-	<?php
-	} // close if found no people
-?></div><?php
-} // close if (isset($user)
-	?>
-</div> <?php // close content ?>
+                echo "<tr {$class}>";
+                ?><td><?php echo $i; ?></td>
+                <td><?php
+                $fullname = $user['User']['name'] . " " . $user['User']['surname'];
+                $title = __('search_page_view_user_profile_link_title', true);
+                // output name
+                echo $html->link($fullname, array('action' => 'view', $user['User']['id']), array('title' => $title) );
+                
+                // age and gender
+                echo ", (";
+                $gender = __('search_page_gender_female', true);
+                if (strcmp($user['User']['gender'], "male") == 0)
+                {
+                    $gender = __('search_page_gender_male', true);
+                }
+                $ages_lbl = __('search_page_ages', true);
+                if (strcmp($user['User']['age'], '---') != 0)
+                {
+                    echo $user['User']['age'] . " {$ages_lbl}, ";
+                }
+                echo $gender . ")<br />";
+                
+                // address
+                echo __('search_page_address', true) . __($user['City']['name'], true) . ", " . __($user['Country']['name'], true) . "<br />";
+                
+                // e-mail link
+                $mailto->createLink($user['User']['email'], $user['User']['id'], __('View email', true)); 
+                ?></td>
+                <td style="text-align: left">
+                <?php
+                    __('Speaks');
+                    echo ": ";
+                    $str = "";
+                    $len = count($user['Offer']);
+                    $cur_lang = 1;
+                    foreach ($user['Offer'] as $lang)
+                    {
+                        $lang_name = __($lang['name'], true);
+                        $str = $str . $lang_name . ", ";
+                        if ($len > 3 && $cur_lang == 3)
+                        {
+                            $str = $str . $html->link(' ...', array('action' => 'view', $user['User']['id'])) . ", ";
+                            break;
+                        }
+                        $cur_lang++;
+                    }
+                    $str = substr_replace($str, "", -2);
+                    echo $str . "<br />";
+                    
+                    unset($str);
+                    __('search_page_looking_for');
+                    echo ": ";
+                    $str = "";
+                    $len = count($user['Want']);
+                    $cur_lang = 0;
+                    foreach ($user['Want'] as $lang)
+                    {
+                        $lang_name = __($lang['name'], true);
+                        $str = $str . $lang_name . ", ";
+                        if ($len > 3 && $cur_lang == 3)
+                        {
+                            $str = $str . $html->link(' ...', array('action' => 'view', $user['User']['id'])) . ", ";;
+                            break;
+                        }
+                        $cur_lang++;
+                    }
+                    $str = substr_replace($str, "", -2);
+                    echo $str;                    
+                ?>
+                </td></tr>
+                <?php
+            }
+        ?>
+        </table>
+<?php
+    }
+}
+?>
+</div> <?php // close content, search content ?>
 	
 <?php
 if ($users_count > 0 && isset($paginator))

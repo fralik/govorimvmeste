@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: LanguageDuo v1\n"
-"POT-Creation-Date: 2010-03-08 22:19+0100\n"
+"POT-Creation-Date: 2010-04-23 13:19+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vadim Frolov <fralik@gmail.com>\n"
 "Language-Team: Vadim Frolov <fralik@gmail.com>\n"
@@ -230,7 +230,7 @@ msgstr "Page %page% of %pages%. Dislaying %current% of %count%, results %start% 
 #: \views\languages\index.ctp:40
 #: \views\languages_users\index.ctp:48
 #: \views\users\index.ctp:76
-#: \views\users\search.ctp:253
+#: \views\users\search.ctp:224
 msgid "previous"
 msgstr "Previous"
 
@@ -238,7 +238,7 @@ msgstr "Previous"
 #: \views\groups\index.ctp:50
 #: \views\languages\index.ctp:42
 #: \views\users\index.ctp:78
-#: \views\users\search.ctp:255
+#: \views\users\search.ctp:226
 msgid "next"
 msgstr "Next"
 
@@ -246,7 +246,7 @@ msgstr "Next"
 msgid "validation_errors"
 msgstr "There are %d error(s) in your submission. Please correct them."
 
-#: \views\helpers\mailto.php:20
+#: \views\helpers\mailto.php:17
 msgid "new_window"
 msgstr " (Opens in a new window)"
 
@@ -300,19 +300,16 @@ msgid "Register user"
 msgstr "Register"
 
 #: \views\users\add.ctp:47
-#: \views\users\search.ctp:150;163
 #: \views\users\view.ctp:35
 msgid "Name"
 msgstr ""
 
 #: \views\users\add.ctp:48
-#: \views\users\search.ctp:151;164
 #: \views\users\view.ctp:40
 msgid "Surname"
 msgstr "Last name"
 
 #: \views\users\add.ctp:49
-#: \views\users\search.ctp:155;168
 #: \views\users\view.ctp:63
 msgid "Gender"
 msgstr ""
@@ -323,7 +320,6 @@ msgid "Age"
 msgstr ""
 
 #: \views\users\add.ctp:51
-#: \views\users\search.ctp:152;165
 #: \views\users\view.ctp:45
 msgid "Email"
 msgstr "E-mail"
@@ -334,7 +330,7 @@ msgstr ""
 
 #: \views\users\add.ctp:53
 #: \views\users\home.ctp:43
-#: \views\users\search.ctp:86;153;166
+#: \views\users\search.ctp:86
 #: \views\users\view.ctp:53
 msgid "Country"
 msgstr ""
@@ -388,7 +384,6 @@ msgid "New password"
 msgstr ""
 
 #: \views\users\edit.ctp:111
-#: \views\users\search.ctp:235
 msgid "Delete"
 msgstr ""
 
@@ -422,12 +417,12 @@ msgid "search_language"
 msgstr "Language to learn"
 
 #: \views\users\home.ctp:69
-#: \views\users\search.ctp:282
+#: \views\users\search.ctp:253
 msgid "selection_none"
 msgstr "— None selected —"
 
 #: \views\users\home.ctp:70
-#: \views\users\search.ctp:283
+#: \views\users\search.ctp:254
 msgid "selection_country_first"
 msgstr "— Select a country first —"
 
@@ -447,76 +442,80 @@ msgstr "Search"
 msgid "search_page_sort_by"
 msgstr "Sort by"
 
-#: \views\users\search.ctp:117
+#: \views\users\search.ctp:118
 msgid "cur_sort_type"
 msgstr ""
 
-#: \views\users\search.ctp:118
+#: \views\users\search.ctp:119
 msgid "User.name_asc"
 msgstr ""
 
-#: \views\users\search.ctp:118
+#: \views\users\search.ctp:119
 msgid "User.name_desc"
 msgstr ""
 
-#: \views\users\search.ctp:119
+#: \views\users\search.ctp:120
 msgid "User.surname_asc"
 msgstr "Name asc"
 
-#: \views\users\search.ctp:119
+#: \views\users\search.ctp:120
 msgid "User.surname_desc"
 msgstr "Name desc"
 
-#: \views\users\search.ctp:120
+#: \views\users\search.ctp:121
 msgid "sort_age"
 msgstr ""
 
-#: \views\users\search.ctp:121
+#: \views\users\search.ctp:122
 msgid "sort_country"
 msgstr "country"
 
-#: \views\users\search.ctp:121
+#: \views\users\search.ctp:123
 msgid "sort_city"
 msgstr ""
 
-#: \views\users\search.ctp:139
+#: \views\users\search.ctp:130
 msgid "Found no people for this search conditions"
 msgstr "No people match that criteria"
 
-#: \views\users\search.ctp:143
+#: \views\users\search.ctp:134
 msgid "Found people"
 msgstr "People found:"
 
-#: \views\users\search.ctp:154;167
-msgid "City name"
-msgstr "City"
+#: \views\users\search.ctp:149
+msgid "search_page_view_user_profile_link_title"
+msgstr "View user's profile"
 
-#: \views\users\search.ctp:156;169
-#: \views\users\view.ctp:88
-msgid "Speaks"
-msgstr "Languages spoken"
+#: \views\users\search.ctp:154
+msgid "search_page_gender_female"
+msgstr "female"
 
-#: \views\users\search.ctp:157;170
-#: \views\users\view.ctp:106
-msgid "search_page_looking_for"
-msgstr "Desired languages"
+#: \views\users\search.ctp:157
+msgid "search_page_gender_male"
+msgstr "male"
 
-#: \views\users\search.ctp:158;171
-msgid "Actions"
-msgstr ""
+#: \views\users\search.ctp:159
+msgid "search_page_ages"
+msgstr "years"
 
-#: \views\users\search.ctp:193
+#: \views\users\search.ctp:163
+msgid "search_page_address"
+msgstr "Residence: "
+
+#: \views\users\search.ctp:166
 #: \views\users\view.ctp:49
 msgid "View email"
 msgstr "View e-mail"
 
-#: \views\users\search.ctp:230
-msgid "View"
-msgstr "View profile"
+#: \views\users\search.ctp:170
+#: \views\users\view.ctp:88
+msgid "Speaks"
+msgstr "Languages spoken"
 
-#: \views\users\search.ctp:234
-msgid "Edit"
-msgstr ""
+#: \views\users\search.ctp:190
+#: \views\users\view.ctp:106
+msgid "search_page_looking_for"
+msgstr "Desired languages"
 
 #: \views\users\view.ctp:23
 msgid "Personal information"
@@ -970,6 +969,10 @@ msgstr ""
 msgid "Debug setting does not allow access to this url."
 msgstr "The debug setting does not allow access to this url."
 
+#~ msgid "City name"
+#~ msgstr "City"
+#~ msgid "View"
+#~ msgstr "View profile"
 #~ msgid "Regulations for using LanguageDuo.com"
 #~ msgstr "GovorimVmeste.com Regulations"
 #~ msgid "Id"
