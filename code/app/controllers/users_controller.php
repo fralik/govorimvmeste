@@ -68,7 +68,6 @@ class UsersController extends AppController
 				// Check to see if the User?s account isn?t active
 				if ($results['User']['active'] == 0) 
 				{
-						// Uh Oh!
 						$this->Session->setFlash(__('account_not_activated', true));
 						$this->Auth->logout();
 						$this->redirect($this->def_redirect);
@@ -99,8 +98,6 @@ class UsersController extends AppController
 				}
 			}
 		}
-  
-		//$this->redirect($this->Auth->redirect());
 	}
 	 
 	function logout() 
@@ -108,7 +105,6 @@ class UsersController extends AppController
 	
 		if (isset($this->RememberMe) && $this->RememberMe)
 			$this->RememberMe->delete();  
-		//$this->Session->setFlash(__('Good-Bye', true));
 		$this->redirect($this->Auth->logout());	
 	}
 	
@@ -161,7 +157,6 @@ class UsersController extends AppController
 		{
 			$groups = $this->User->Group->find('list');
 		}
-		//$this->set(compact('offers','wants','cities','countries', 'groups'));
 		$this->set(compact('cities','countries', 'groups'));
 	}
 
@@ -170,7 +165,6 @@ class UsersController extends AppController
 		$this->Session->write('current_menu', 'search');
 		$allowed = array('0','1','2','3','4','5','6','7','8','9');
 		$this->pageTitle = __('Search for the partner', true);
-		//print_r($this->passedArgs);
 		
 		if (isset($this->params['url']['language']) || !empty($this->passedArgs))
 		{
@@ -194,58 +188,6 @@ class UsersController extends AppController
 			else
 				$city_id = 0;
 				
-			// if (isset($this->passedArgs['language']))
-			// {
-				// $language_id = $this->passedArgs['language'];
-				// $country_id= $this->passedArgs['country'];
-				// $city_id = $this->passedArgs['city'];
-			// }
-			// else
-			// {
-				// //if (isset($this->params['url']['language']))
-				// //{
-					// $language_id = $this->params['url']['language'];
-				// //}
-				// //elseif (isset($this->data['User']['language']))
-				// //{
-					// //$languages = $this->data['User']['language'];
-				// //}
-				
-				// // get information about countries
-				// $country_id = $this->params['url']['country'];
-				// // if (isset($this->data['country']))
-				// // {
-					// // $countries = $this->data['country'];
-				// // }
-				// // elseif (isset($this->data['User']['country']))
-				// // {
-					// // $countries = $this->data['User']['country'];
-				// // }
-
-				// // get information about city
-				// $city_id = $this->params['url']['city'];
-				// // if (isset($this->data['city']))
-				// // {
-					// // $cities = $this->data['city'];
-				// // }
-				// // elseif (isset($this->data['User']['city']))
-				// // {
-					// // $cities = $this->data['User']['city'];
-				// // }
-
-				// // if (isset($languages) && isset($countries) && isset($cities))
-				// // {
-					// // $language_id = $languages[0];
-					// // $country_id = $countries[0];
-					// // $city_id = $cities[0];
-				// // }
-				// // else
-				// // {
-					// // $this->Session->setFlash(__('No idndices', true));
-					// // return; //TODO:
-				// // }
-			// }
-				
 			$this->User->bindModel(array('hasOne' => array('LanguagesUsers')), false);
 			$conditions = array('LanguagesUsers.offer' => 1, 'LanguagesUsers.language_id' => $language_id);
 			if (strcmp($country_id, '0') != 0)
@@ -256,16 +198,10 @@ class UsersController extends AppController
 			{
 				$conditions = array_merge($conditions, array('City.id' => $city_id) );
 			}
-			//print_r($conditions);
 			$this->User->recursive = 1;
 			$users = $this->paginate($conditions);
 			
-			//print_r($users);
 			$this->set('users', $users);
-		}
-		else
-		{
-			//$this->redirect('/');
 		}
 	}
 
@@ -300,8 +236,6 @@ class UsersController extends AppController
 		
 		if (!empty($this->data)) 
 		{
-			//$this->User->set($this->data);
-
 			$offer_levels = $this->_get_levels($this->data['User']['offer'], $this->data['User']['level']['offer']);
 			
 			if (!$this->User->validates()) 
@@ -319,7 +253,6 @@ class UsersController extends AppController
 				else
 				{
 					//print_r($this->data);
-					//$this->data['User']['password'] = $this->Auth->password($this->data['User']['password']);
 					$this->data['User']['message'] = Sanitize::html($this->data['User']['message']);
 					$cleaned_data = Sanitize::clean($this->data);
 					if (!$this->isAdmin())
@@ -329,11 +262,8 @@ class UsersController extends AppController
 						$this->data['User']['group_id'] = $group_id;
 					}
 					$this->User->create();
-					//if ($this->User->saveAll($this->data, array('validate' => false) )) 
 					if ($this->User->save($cleaned_data)) 
 					{
-						//$this->Auth->login($this->data);
-						
 						$this->data['User']['password'] = "";
 						$user_id = $this->User->getLastInsertID();
 						
@@ -363,7 +293,6 @@ class UsersController extends AppController
 						unset($data);
 						
 						$name = $this->data['User']['name'] . " " . $this->data['User']['surname'];
-						//$this->_send_greetings($user_id, $name, $this->data['User']['email']);
 						$this->__send_activation_email($user_id, $name, $this->data['User']['email']);
 						
 						$this->Session->setFlash(__('thanks_for_registration', true));
@@ -409,7 +338,6 @@ class UsersController extends AppController
 		if (!$id && empty($this->data)) 
 		{
 			$this->Session->setFlash(__('Invalid user', true));
-			//$this->redirect(array('action'=>'index'));
 			$this->redirect($this->def_redirect);
 		}
 		
@@ -664,17 +592,11 @@ class UsersController extends AppController
 					
 					$locale = $this->LanguageHelper->getLanguage(array());
 					$this->redirect(array('action' => 'login'));
-					//$this->redirect($redir);
-					//$this->redirect(array('action' => 'login', 'lang' => $locale), null, true);
 			}
 			$this->redirect($this->def_redirect);
 			// Activation failed, render ?/views/user/activate.ctp? which should tell the user.
 	}
 	
-	// function test()
-	// {
-		// echo $this->__send_activation_email("1", "Vadim Frolov", "fralik@gmail.com");
-	// }
 //----------------------------------------------------------------------	
 	function __send_activation_email($user_id, $name, $email)
 	{
@@ -729,8 +651,6 @@ class UsersController extends AppController
 		if ($locale != "eng")
 			$template = $locale . DS . $template;
 
-		//$email_text = __('new_user_email_text', true);
-
         try 
 		{
 			$subject = sprintf(__('greetings_subject_text', true), $this->project_name);
@@ -762,7 +682,6 @@ class UsersController extends AppController
 		{
 			$result = true;
 		}
-		//print_r($user);
 			
 		return $result;
 	}
@@ -776,7 +695,6 @@ class UsersController extends AppController
 			$this->redirect($this->def_redirect);
 		}
 
-		//print_r($this);
 		if (!$this->_isValidId($id))
 		{
 			$this->redirect($this->def_redirect);
@@ -791,7 +709,6 @@ class UsersController extends AppController
 			else
 			{
 				$this->User->recursive = 0;
-				//$this->set('user', $this->User->read(null, $id));
 				$params = array(
 						'condition' => array('User.id' => $id),
 						'recursive' => 0,
@@ -800,11 +717,9 @@ class UsersController extends AppController
 
 				$email = $this->User->find('first', $params);
 				$this->set('email', $email);
-				// $user = $this->User->findById($id);
-				// $this->set('user', user);
 			}
 		}
 	}
-	
+
 }
 ?>

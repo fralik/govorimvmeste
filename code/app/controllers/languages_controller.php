@@ -14,8 +14,6 @@ class LanguagesController extends AppController {
 		parent::beforeFilter(); 
 		//$this->Auth->allowedActions = array('*');
 		$this->Auth->allowedActions = array('search', 'add');
-		$this->Recaptcha->publickey = "6LeT9QkAAAAAAGAKi6_FkC4H27iuaS8OWZwMqRDj"; 
-		$this->Recaptcha->privatekey = "6LeT9QkAAAAAAF3y-t-b0E-bLiK-RdybOXoPzsya"; 
 	}
 
 	

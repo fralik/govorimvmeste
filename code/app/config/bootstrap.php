@@ -42,14 +42,15 @@
  */
  config('environment');
 
- Environment::configure(
+// INSTALL: add your reCaptcha keys. You can use different keys for different environments
+Environment::configure(
 		'development',
 		array(),
 		array(
 			'debug' => 2,
 			'security' => 'low',
-			'publickey' => '6LeT9QkAAAAAAGAKi6_FkC4H27iuaS8OWZwMqRDj',
-			'privatekey' => '6LeT9QkAAAAAAF3y-t-b0E-bLiK-RdybOXoPzsya'
+			'publickey' => '',
+			'privatekey' => ''
 		)
 );
 
@@ -59,8 +60,8 @@ Environment::configure(
 		array(
 			'debug' => 1,
 			'security' => 'high',
-			'publickey' => '6LfwEwoAAAAAADNW2N58WEUuLkr5Q9P8GrVjQpv_',
-			'privatekey' => '6LfwEwoAAAAAAO6oAh3VMk5ppXLpf9tDQxOdTzkE'
+			'publickey' => '',
+			'privatekey' => ''
 		)
 );
 
@@ -71,19 +72,19 @@ Environment::configure(
 		array(
 			'debug' => 1,
 			'security' => 'high',
-			'publickey' => '6LfwEwoAAAAAADNW2N58WEUuLkr5Q9P8GrVjQpv_',
-			'privatekey' => '6LfwEwoAAAAAAO6oAh3VMk5ppXLpf9tDQxOdTzkE'
+			'publickey' => '',
+			'privatekey' => ''
 		)
 );
 
-$env = 'production';
+$env = 'production'; // default environment
+
 if (!isset($_SERVER['HTTP_HOST']) || strstr($_SERVER['HTTP_HOST'], 'localhost'))
 {
 	$env = 'development';
 }
 
 Environment::start($env);
-
 
 //EOF
 ?>

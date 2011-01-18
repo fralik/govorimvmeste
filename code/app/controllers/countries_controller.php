@@ -17,7 +17,7 @@ class CountriesController extends AppController
 	function beforeFilter() 
 	{
 		parent::beforeFilter(); 
-		// TODO: do not forget to change this for production:
+		// INSTALL: allow only some actions for the production
 		//$this->Auth->allowedActions = array('*');
 		//$this->Auth->allowedActions = array('search', 'add');
 	}
@@ -233,6 +233,5 @@ class CountriesController extends AppController
 			$this->redirect(array('action'=>'index'));
 		}
 	}
-
 }
 ?>
